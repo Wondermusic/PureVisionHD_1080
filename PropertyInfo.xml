@@ -1779,5 +1779,13 @@
         <XmlMediaPortalTag Tag="#fanarthandler.tvseries.backdrop2.any" />
       </MediaPortalTags>
     </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedNode.name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedNode.name" />
+      </MediaPortalTags>
+    </XmlProperty>
   </Properties>
 </XmlPropertyInfo>
