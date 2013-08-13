@@ -294,6 +294,38 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4IconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest1.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest1.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest2.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest2.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest3.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest3.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>
@@ -1171,7 +1203,7 @@
     <XmlProperty>
       <SkinTag>#MPE.Selected.Description</SkinTag>
       <PropertyType>Label</PropertyType>
-      <DesignerValue>bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... </DesignerValue>
+      <DesignerValue>bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla...  bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla...</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Description" />
       </MediaPortalTags>
@@ -1718,14 +1750,6 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4IconImage" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#MPD2.BrowseStatus</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>New....</DesignerValue>
@@ -1785,6 +1809,70 @@
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedNode.name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest1.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest1.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest1.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest1.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest2.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest2.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest3.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest3.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest2.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest2.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.picture.latest3.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.picture.latest3.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.Location</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wuppertal, DEU</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.Location" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayHumidity</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>63 %</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayHumidity" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>

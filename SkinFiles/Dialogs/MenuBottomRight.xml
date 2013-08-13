@@ -133,4 +133,5 @@
       </CoverFlowItemStyle>
     </Control>
   </DialogControls>
+  <VisibleCondition>IsMediaPortalDialog(2015)</VisibleCondition>
 </Dialog>

@@ -115,4 +115,5 @@
       </CoverFlowItemStyle>
     </Control>
   </DialogControls>
+  <VisibleCondition>IsMediaPortalDialog(2018)</VisibleCondition>
 </Dialog>

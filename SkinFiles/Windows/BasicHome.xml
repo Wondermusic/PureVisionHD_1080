@@ -680,7 +680,7 @@
               <ImageStyle>
                 <BorderThickness>0,0,0,0</BorderThickness>
                 <CornerRadius>0,0,0,0</CornerRadius>
-                <BackgroundBrush x:type="ImageBrush" Image="\background.jpg" Stretch="Fill" />
+                <BackgroundBrush x:type="ImageBrush" Image="\Styles\FadetoGray\background.jpg" Stretch="Fill" />
                 <BorderBrush />
               </ImageStyle>
               <Image>#MPD2.BasicHome.Fanart</Image>
@@ -1543,6 +1543,2038 @@
               <Image>\tvguide_record_button.png</Image>
               <ImageStretch>Fill</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Button Group</Name>
+          <Id>73</Id>
+          <Width>1240</Width>
+          <Height>400</Height>
+          <PosX>10</PosX>
+          <PosY>195</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Group">
+              <Name>200</Name>
+              <Id>74</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(2)</VisibleCondition>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Button">
+                  <Name>TV normal push button</Name>
+                  <Id>75</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>201</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF907600" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF907600" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my tv.jpg</Image>
+                  <LabelText>@TV</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="1" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>EPG normal push button</Name>
+                  <Id>76</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>210</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>202</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF905022" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF905022" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_tvprogram.jpg</Image>
+                  <LabelText>@EPG</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="600" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Recordings normal push button</Name>
+                  <Id>77</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>420</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>203</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FFC05000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FFC05000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_mediaslayer.jpg</Image>
+                  <LabelText>@Recordings</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="603" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Timer normal push button</Name>
+                  <Id>78</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>630</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>204</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FFCC9900" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FFCC9900" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my alarm.jpg</Image>
+                  <LabelText>@Timer</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="601" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Search normal push button</Name>
+                  <Id>79</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>840</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>205</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FFFF99FF" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FFFF99FF" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_search music.jpg</Image>
+                  <LabelText>@Search</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="604" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>TV WishList normal push button</Name>
+                  <Id>80</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>1050</PosX>
+                  <VisibleCondition>IsPluginEnabled(TvWishListMP)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>206</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FFCC99CC" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FFCC99CC" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_TvWishList.jpg</Image>
+                  <LabelText>TV Wish List</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="70943675" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Clickfinder normal push button</Name>
+                  <Id>81</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition>IsPluginEnabled(Clickfinder ProgramGuide)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>207</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FFC05050" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FFC05050" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_Clickfinder ProgramGuide.jpg</Image>
+                  <LabelText>Clickfinder</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="165654465" />
+                  </Actions>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>210</Name>
+              <Id>82</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(210)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Button">
+                  <Name>Videos button</Name>
+                  <Id>83</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>211</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF996622" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF996622" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my videos.jpg</Image>
+                  <LabelText>@Videos</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="6" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>TVSeries button</Name>
+                  <Id>84</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>210</PosX>
+                  <VisibleCondition>IsPluginEnabled(MP-TV Series)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>212</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF006600" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF006600" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my tv series.jpg</Image>
+                  <LabelText>TV Series</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="9811" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>MovingPictures button</Name>
+                  <Id>85</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>420</PosX>
+                  <VisibleCondition>IsPluginEnabled(Moving Pictures)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>213</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF006699" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF006699" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_moving pictures.jpg</Image>
+                  <LabelText>Moving Pictures</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="96742" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Onlinevideos button</Name>
+                  <Id>86</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>630</PosX>
+                  <VisibleCondition>IsPluginEnabled(OnlineVideos)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>214</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF009966" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF009966" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_onlinevideos.jpg</Image>
+                  <LabelText>Online Videos</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="4755" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Films normal push button</Name>
+                  <Id>87</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>840</PosX>
+                  <VisibleCondition>IsPluginEnabled(MyFilms)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>215</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF666666" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF666666" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_films.jpg</Image>
+                  <LabelText>Films</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="7986" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Showtimes normal push button</Name>
+                  <Id>88</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>1050</PosX>
+                  <VisibleCondition>IsPluginEnabled(ShowTimes)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>216</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF00CC00" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF00CC00" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_ShowTimes.jpg</Image>
+                  <LabelText>Showtimes</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="7111992" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Subcentral normal push button</Name>
+                  <Id>89</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition>IsPluginEnabled(SubCentral)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>217</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF999966" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF999966" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_subcentral.jpg</Image>
+                  <LabelText>Subcentral</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="84623" />
+                  </Actions>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>220</Name>
+              <Id>90</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(220)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Button">
+                  <Name>NowPlaying normal push button</Name>
+                  <Id>91</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>221</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F00C0" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F00C0" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_nowplaying.jpg</Image>
+                  <LabelText>@NowPlaying</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="510" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Lyrics normal push button</Name>
+                  <Id>92</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>210</PosX>
+                  <VisibleCondition>IsPluginEnabled(My Lyrics)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>222</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F1000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F1000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my lyrics.jpg</Image>
+                  <LabelText>Lyrics</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="90478" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Shoutcast normal push button</Name>
+                  <Id>93</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>420</PosX>
+                  <VisibleCondition>IsPluginEnabled(Shoutcast)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>223</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F2070" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F2070" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_shoutcast.jpg</Image>
+                  <LabelText>Shoutcast</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="2345" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>RadioTime normal push button</Name>
+                  <Id>94</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>630</PosX>
+                  <VisibleCondition>IsPluginEnabled(RadioTime)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>224</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F40C0" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F40C0" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_radiotime.jpg</Image>
+                  <LabelText>RadioTime</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="25650" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Radio normal push button</Name>
+                  <Id>95</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>840</PosX>
+                  <VisibleCondition>IsPluginEnabled(Radio)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>225</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F7000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my radio.jpg</Image>
+                  <LabelText>Radio</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="30" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>YouTube.FM normal push button</Name>
+                  <Id>96</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>1050</PosX>
+                  <VisibleCondition>IsPluginEnabled(YouTube.fm)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>226</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_youtubefm.jpg</Image>
+                  <LabelText>YouTube.FM</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="29050" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>mvCentral normal push button</Name>
+                  <Id>97</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition>IsPluginEnabled(mvCentral)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>227</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F9090" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F9090" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_mvCentral.jpg</Image>
+                  <LabelText>mvCentral</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="112011" />
+                  </Actions>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>230</Name>
+              <Id>98</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(230) ++ IsPluginEnabled(Latest Media Handler)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Rectangle">
+                  <Name>NewRectangle</Name>
+                  <Id>99</Id>
+                  <Width>1140</Width>
+                  <Height>200</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <BorderThickness>0,0,0,0</BorderThickness>
+                  <CornerRadius>0,0,0,0</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#FF333366" />
+                </Control>
+                <Control x:type="Image">
+                  <Name>Image 1</Name>
+                  <Id>100</Id>
+                  <Width>188</Width>
+                  <Height>118</Height>
+                  <PosX>10</PosX>
+                  <PosY>40</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <ImageStyle StyleId="Clear" />
+                  <Image>#latestMediaHandler.picture.latest1.thumb</Image>
+                  <ImageStretch>Uniform</ImageStretch>
+                  <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                </Control>
+                <Control x:type="Image">
+                  <Name>Image 2</Name>
+                  <Id>101</Id>
+                  <Width>188</Width>
+                  <Height>118</Height>
+                  <PosX>215</PosX>
+                  <PosY>40</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <ImageStyle StyleId="Clear" />
+                  <Image>#latestMediaHandler.picture.latest2.thumb</Image>
+                  <ImageStretch>Uniform</ImageStretch>
+                  <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                </Control>
+                <Control x:type="Image">
+                  <Name>Image 3</Name>
+                  <Id>102</Id>
+                  <Width>188</Width>
+                  <Height>118</Height>
+                  <PosX>410</PosX>
+                  <PosY>40</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <ImageStyle StyleId="Clear" />
+                  <Image>#latestMediaHandler.picture.latest3.thumb</Image>
+                  <ImageStretch>Uniform</ImageStretch>
+                  <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Label 1</Name>
+                  <Id>103</Id>
+                  <Width>500</Width>
+                  <Height>50</Height>
+                  <PosX>630</PosX>
+                  <PosY>15</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#latestMediaHandler.picture.latest1.title+ (+#latestMediaHandler.picture.latest1.dateAdded+)</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>8</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Label 2</Name>
+                  <Id>104</Id>
+                  <Width>500</Width>
+                  <Height>40</Height>
+                  <PosX>630</PosX>
+                  <PosY>65</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#latestMediaHandler.picture.latest2.title+ (+#latestMediaHandler.picture.latest2.dateAdded+)</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>8</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Label 3</Name>
+                  <Id>105</Id>
+                  <Width>500</Width>
+                  <Height>40</Height>
+                  <PosX>630</PosX>
+                  <PosY>115</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#latestMediaHandler.picture.latest3.title+ (+#latestMediaHandler.picture.latest3.dateAdded+)</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>8</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>240</Name>
+              <Id>106</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(240)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Group">
+                  <Name>Day0</Name>
+                  <Id>118</Id>
+                  <Width>1240</Width>
+                  <Height>400</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <GroupStyle StyleId="Empty" />
+                  <GroupControls>
+                    <Control x:type="Rectangle">
+                      <Name>Today</Name>
+                      <Id>119</Id>
+                      <Width>1140</Width>
+                      <Height>180</Height>
+                      <PosY>200</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <BorderThickness>0,0,0,0</BorderThickness>
+                      <CornerRadius>0,0,0,0</CornerRadius>
+                      <BackgroundBrush x:type="ColorBrush" Color="#FF0050F0" />
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Location</Name>
+                      <Id>140</Id>
+                      <Width>350</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <PosY>200</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.Location+:</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Temp Label</Name>
+                      <Id>141</Id>
+                      <Width>300</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <PosY>240</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>@Temperature+:</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Temp</Name>
+                      <Id>142</Id>
+                      <Width>150</Width>
+                      <Height>40</Height>
+                      <PosX>310</PosX>
+                      <PosY>240</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.TodayTemperature</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Condition</Name>
+                      <Id>143</Id>
+                      <Width>350</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <PosY>280</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.TodayCondition</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Wind Label</Name>
+                      <Id>144</Id>
+                      <Width>300</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <PosY>320</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>@Wind+:</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Wind</Name>
+                      <Id>145</Id>
+                      <Width>150</Width>
+                      <Height>40</Height>
+                      <PosX>310</PosX>
+                      <PosY>320</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.TodayWindDirection+ - +#WorldWeather.TodayWindSpeed</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Image">
+                      <Name>Icon</Name>
+                      <Id>146</Id>
+                      <Width>100</Width>
+                      <Height>100</Height>
+                      <PosX>480</PosX>
+                      <PosY>245</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ImageStyle StyleId="Clear" />
+                      <Image>#WorldWeather.TodayIconImage</Image>
+                      <ImageStretch>Uniform</ImageStretch>
+                      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Humidity Label</Name>
+                      <Id>147</Id>
+                      <Width>400</Width>
+                      <Height>40</Height>
+                      <PosX>600</PosX>
+                      <PosY>240</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>@Humidity+: +#WorldWeather.TodayHumidity</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Sundial</Name>
+                      <Id>149</Id>
+                      <Width>400</Width>
+                      <Height>40</Height>
+                      <PosX>600</PosX>
+                      <PosY>280</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>@Sundial+: +#WorldWeather.LocationSunriseTime+ - +#WorldWeather.LocationSunsetTime</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Moonphase Label</Name>
+                      <Id>150</Id>
+                      <Width>400</Width>
+                      <Height>40</Height>
+                      <PosX>600</PosX>
+                      <PosY>320</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>@Moonphase+: +#WorldWeather.LocationMoonPhase</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Image">
+                      <Name>Icon</Name>
+                      <Id>151</Id>
+                      <Width>100</Width>
+                      <Height>100</Height>
+                      <PosX>1025</PosX>
+                      <PosY>245</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ImageStyle StyleId="Clear" />
+                      <Image>#WorldWeather.LocationMoonPhaseImage</Image>
+                      <ImageStretch>Uniform</ImageStretch>
+                      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                    </Control>
+                  </GroupControls>
+                </Control>
+                <Control x:type="Group">
+                  <Name>Day1</Name>
+                  <Id>120</Id>
+                  <Width>1240</Width>
+                  <Height>400</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <GroupStyle StyleId="Empty" />
+                  <GroupControls>
+                    <Control x:type="Rectangle">
+                      <Name>Day 1</Name>
+                      <Id>124</Id>
+                      <Width>300</Width>
+                      <Height>180</Height>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <BorderThickness>0,0,0,0</BorderThickness>
+                      <CornerRadius>0,0,0,0</CornerRadius>
+                      <BackgroundBrush x:type="ColorBrush" Color="#FF0050F0" />
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Day</Name>
+                      <Id>152</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay1Day</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Temp</Name>
+                      <Id>153</Id>
+                      <Width>200</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <PosY>100</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay1High+ | +#WorldWeather.ForecastDay1Low</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Condition</Name>
+                      <Id>154</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>10</PosX>
+                      <PosY>140</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay1Condition</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Image">
+                      <Name>Icon</Name>
+                      <Id>155</Id>
+                      <Width>75</Width>
+                      <Height>75</Height>
+                      <PosX>210</PosX>
+                      <PosY>50</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ImageStyle StyleId="Clear" />
+                      <Image>#WorldWeather.ForecastDay1IconImage</Image>
+                      <ImageStretch>Uniform</ImageStretch>
+                      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                    </Control>
+                  </GroupControls>
+                </Control>
+                <Control x:type="Group">
+                  <Name>Day2</Name>
+                  <Id>125</Id>
+                  <Width>1240</Width>
+                  <Height>400</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <GroupStyle StyleId="Empty" />
+                  <GroupControls>
+                    <Control x:type="Rectangle">
+                      <Name>Day 2</Name>
+                      <Id>130</Id>
+                      <Width>300</Width>
+                      <Height>180</Height>
+                      <PosX>310</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <BorderThickness>0,0,0,0</BorderThickness>
+                      <CornerRadius>0,0,0,0</CornerRadius>
+                      <BackgroundBrush x:type="ColorBrush" Color="#FF0050F0" />
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Day</Name>
+                      <Id>156</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>320</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay2Day</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Temp</Name>
+                      <Id>157</Id>
+                      <Width>200</Width>
+                      <Height>40</Height>
+                      <PosX>320</PosX>
+                      <PosY>100</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay2High+ | +#WorldWeather.ForecastDay2Low</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Condition</Name>
+                      <Id>158</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>320</PosX>
+                      <PosY>140</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay2Condition</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Image">
+                      <Name>Icon</Name>
+                      <Id>159</Id>
+                      <Width>75</Width>
+                      <Height>75</Height>
+                      <PosX>520</PosX>
+                      <PosY>50</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ImageStyle StyleId="Clear" />
+                      <Image>#WorldWeather.ForecastDay2IconImage</Image>
+                      <ImageStretch>Uniform</ImageStretch>
+                      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                    </Control>
+                  </GroupControls>
+                </Control>
+                <Control x:type="Group">
+                  <Name>Day3</Name>
+                  <Id>132</Id>
+                  <Width>1240</Width>
+                  <Height>400</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <GroupStyle StyleId="Empty" />
+                  <GroupControls>
+                    <Control x:type="Rectangle">
+                      <Name>Day 3</Name>
+                      <Id>134</Id>
+                      <Width>300</Width>
+                      <Height>180</Height>
+                      <PosX>620</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <BorderThickness>0,0,0,0</BorderThickness>
+                      <CornerRadius>0,0,0,0</CornerRadius>
+                      <BackgroundBrush x:type="ColorBrush" Color="#FF0050F0" />
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Day</Name>
+                      <Id>160</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>630</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay3Day</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Temp</Name>
+                      <Id>161</Id>
+                      <Width>200</Width>
+                      <Height>40</Height>
+                      <PosX>630</PosX>
+                      <PosY>100</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay3High+ | +#WorldWeather.ForecastDay3Low</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Condition</Name>
+                      <Id>162</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>630</PosX>
+                      <PosY>140</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay3Condition</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Image">
+                      <Name>Icon</Name>
+                      <Id>163</Id>
+                      <Width>75</Width>
+                      <Height>75</Height>
+                      <PosX>830</PosX>
+                      <PosY>50</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ImageStyle StyleId="Clear" />
+                      <Image>#WorldWeather.ForecastDay3IconImage</Image>
+                      <ImageStretch>Uniform</ImageStretch>
+                      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                    </Control>
+                  </GroupControls>
+                </Control>
+                <Control x:type="Group">
+                  <Name>Day4</Name>
+                  <Id>137</Id>
+                  <Width>1240</Width>
+                  <Height>400</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <GroupStyle StyleId="Empty" />
+                  <GroupControls>
+                    <Control x:type="Rectangle">
+                      <Name>Day 4</Name>
+                      <Id>138</Id>
+                      <Width>300</Width>
+                      <Height>180</Height>
+                      <PosX>930</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <BorderThickness>0,0,0,0</BorderThickness>
+                      <CornerRadius>0,0,0,0</CornerRadius>
+                      <BackgroundBrush x:type="ColorBrush" Color="#FF0050F0" />
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Day</Name>
+                      <Id>165</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>940</PosX>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay4Day</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Temp</Name>
+                      <Id>166</Id>
+                      <Width>200</Width>
+                      <Height>40</Height>
+                      <PosX>940</PosX>
+                      <PosY>100</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay4High+ | +#WorldWeather.ForecastDay4Low</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Label">
+                      <Name>Condition</Name>
+                      <Id>167</Id>
+                      <Width>280</Width>
+                      <Height>40</Height>
+                      <PosX>940</PosX>
+                      <PosY>140</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <LabelStyle StyleId="30 White Caps">
+                        <FontSize>20</FontSize>
+                      </LabelStyle>
+                      <LabelText>#WorldWeather.ForecastDay4Condition</LabelText>
+                      <IsScrollingEnabled>false</IsScrollingEnabled>
+                      <ScrollSpeed>2</ScrollSpeed>
+                      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                    </Control>
+                    <Control x:type="Image">
+                      <Name>Icon</Name>
+                      <Id>164</Id>
+                      <Width>75</Width>
+                      <Height>75</Height>
+                      <PosX>1140</PosX>
+                      <PosY>50</PosY>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ImageStyle StyleId="Clear" />
+                      <Image>#WorldWeather.ForecastDay4IconImage</Image>
+                      <ImageStretch>Uniform</ImageStretch>
+                      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                    </Control>
+                  </GroupControls>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>250</Name>
+              <Id>168</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Button">
+                  <Name>Extensions normal push button</Name>
+                  <Id>169</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>251</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F00C0" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F00C0" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_extensions.jpg</Image>
+                  <LabelText>@Extensions</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="801" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>FileExplorer normal push button</Name>
+                  <Id>170</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>210</PosX>
+                  <VisibleCondition>IsPluginEnabled(Datei Explorer)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>252</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F1000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F1000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_File Explorer.jpg</Image>
+                  <LabelText>FileExplorer</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="557311" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>WindowsUpdate normal push button</Name>
+                  <Id>171</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>420</PosX>
+                  <VisibleCondition>IsPluginEnabled(Update Control)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>253</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F2070" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F2070" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_updatecontrol.jpg</Image>
+                  <LabelText>Windows Update</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="7984" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>SleepControl normal push button</Name>
+                  <Id>172</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>630</PosX>
+                  <VisibleCondition>IsPluginEnabled(Sleep Control)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>254</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F40C0" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F40C0" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_radiotime.jpg</Image>
+                  <LabelText>SleepControl</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="7969" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Worldclock normal push button</Name>
+                  <Id>173</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>840</PosX>
+                  <VisibleCondition>IsPluginEnabled(World Clock)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>255</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F7000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_worldclock.jpg</Image>
+                  <LabelText>WorldClock</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="7978" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>owerControl normal push button</Name>
+                  <Id>174</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>1050</PosX>
+                  <VisibleCondition>IsPluginEnabled(Power Control)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>256</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_powercontrol.jpg</Image>
+                  <LabelText>Power Control</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="7983" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>IMDb+ normal push button</Name>
+                  <Id>175</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition>IsPluginEnabled(IMDbPlus)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>257</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_imdb+.jpg</Image>
+                  <LabelText>IMDB+</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="31415" />
+                  </Actions>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>260</Name>
+              <Id>176</Id>
+              <Width>1240</Width>
+              <Height>400</Height>
+              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations>
+                <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
+                <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="Button">
+                  <Name>TV normal push button</Name>
+                  <Id>177</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>262</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F00C0" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F00C0" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my tv.jpg</Image>
+                  <LabelText>@TV</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="700" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Pictures normal push button</Name>
+                  <Id>178</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>210</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>263</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F1000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F1000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my pictures.jpg</Image>
+                  <LabelText>Diashow</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="12" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Movies normal push button</Name>
+                  <Id>179</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>420</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>264</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F2070" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F2070" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_moving pictures.jpg</Image>
+                  <LabelText>@Videos</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="703" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>DVD normal push button</Name>
+                  <Id>180</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>630</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>265</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F40C0" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F40C0" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_Blu-ray.jpg</Image>
+                  <LabelText>DVD</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="1027" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>Music normal push button</Name>
+                  <Id>181</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>840</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>266</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F7000" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7000" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_my music.jpg</Image>
+                  <LabelText>@Music</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="14" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>General normal push button</Name>
+                  <Id>182</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosX>1050</PosX>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>267</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7E7090" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F7090" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_extra menu.jpg</Image>
+                  <LabelText>@General</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="4" />
+                  </Actions>
+                </Control>
+                <Control x:type="Button">
+                  <Name>GUI normal push button</Name>
+                  <Id>183</Id>
+                  <Width>200</Width>
+                  <Height>150</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls>
+                    <MediaPortalControlId>268</MediaPortalControlId>
+                  </MediaPortalFocusControls>
+                  <ButtonStyle>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF7F9090" />
+                    <NoFocusBorderBrush />
+                    <FocusBrush x:type="ColorBrush" Color="#FF7F9090" />
+                    <FocusBorderBrush />
+                    <ShadeBrush />
+                    <GlossBrush />
+                    <FontType>Roboto</FontType>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>2,2,2,38</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageStretch>Fill</ImageStretch>
+                  </ButtonStyle>
+                  <Image>\Hovers\hover_adjust.jpg</Image>
+                  <LabelText>+GUI</LabelText>
+                  <Actions>
+                    <Action Action="MediaPortalWindow" Param="1021" />
+                  </Actions>
+                </Control>
+              </GroupControls>
             </Control>
           </GroupControls>
         </Control>

@@ -326,13 +326,13 @@
     <ControlStyle x:type="LabelStyle" StyleId="30 White">
       <FontType>Wolf Sans</FontType>
       <FontSize>30</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="30 White Caps">
       <FontType>Roboto</FontType>
       <FontWeight>Black</FontWeight>
       <FontSize>30</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="ButtonStyle" StyleId="Dialog - Exit Button">
       <NoFocusBrush x:type="ImageBrush" Image="\exitNF.png" Stretch="Uniform" />
@@ -420,29 +420,29 @@
     <ControlStyle x:type="LabelStyle" StyleId="40 White">
       <FontType>Wolf Sans</FontType>
       <FontSize>40</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="40 White Caps">
       <FontType>Roboto</FontType>
       <FontWeight>Black</FontWeight>
       <FontSize>40</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="50 White">
       <FontType>Wolf Sans</FontType>
       <FontSize>50</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="50 White Caps">
       <FontType>Roboto</FontType>
       <FontWeight>Black</FontWeight>
       <FontSize>50</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="60 White">
       <FontType>Wolf Sans</FontType>
       <FontSize>60</FontSize>
-      <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FontBrush x:type="ColorBrush" Color="#FF000000" />
     </ControlStyle>
     <ControlStyle x:type="LabelStyle" StyleId="60 White Caps">
       <FontType>Roboto</FontType>
@@ -516,22 +516,22 @@
       <FocusBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
         <GradientStops>
-          <GradientStop Color="#FF416AB0" Offset="0" />
-          <GradientStop Color="#FF192B4F" Offset="1" />
+          <GradientStop Color="#FF4E4E4F" Offset="1" />
+          <GradientStop Color="#FF808080" Offset="0" />
         </GradientStops>
       </FocusBrush>
       <FocusBorderBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
         <GradientStops>
-          <GradientStop Color="#FF253D6B" Offset="1" />
-          <GradientStop Color="#0A416AB0" Offset="0" />
+          <GradientStop Color="#FF808080" Offset="1" />
+          <GradientStop Color="#11808080" Offset="0" />
         </GradientStops>
       </FocusBorderBrush>
       <ShadeBrush />
       <FontType>Wolf Sans</FontType>
       <FontSize>35</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FFF5DDB3" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <LabelMargin>10,0,0,0</LabelMargin>
       <ImageMargin>3,3,3,3</ImageMargin>
       <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
@@ -542,23 +542,23 @@
       <ItemMargin>1,1,1,1</ItemMargin>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="Vertical">
-      <CornerRadius>10,10,10,10</CornerRadius>
+      <CornerRadius>15,15,15,15</CornerRadius>
       <NoFocusBrush />
       <NoFocusBorderBrush />
       <FocusBrush x:type="GradientBrush">
         <Angle>Horizontal</Angle>
         <GradientStops>
-          <GradientStop Color="#005EDBF1" Offset="0" />
-          <GradientStop Color="#FF5EDBF1" Offset="0.005" />
-          <GradientStop Color="#005EDBF1" Offset="0.01" />
+          <GradientStop Color="#32000000" Offset="0" />
+          <GradientStop Color="#FF000000" Offset="0.005" />
+          <GradientStop Color="#32000000" Offset="0.01" />
         </GradientStops>
       </FocusBrush>
       <FocusBorderBrush />
       <ShadeBrush />
       <FontType>Wolf Sans</FontType>
       <FontSize>35</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FFFFCC00" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF987800" />
+      <FocusFontBrush x:type="ColorBrush" Color="#FF800000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF800000" />
       <LabelMargin>80,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
       <EnableImage>true</EnableImage>
@@ -573,7 +573,7 @@
     <ControlStyle x:type="ListStyle" StyleId="ListControl BG">
       <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>15,15,15,15</CornerRadius>
-      <BackgroundBrush x:type="ColorBrush" Color="#AE000000" />
+      <BackgroundBrush x:type="ColorBrush" Color="#BCDDDDDD" />
       <BorderBrush />
       <GlossBrush />
     </ControlStyle>
@@ -629,7 +629,7 @@
       <BackgroundBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
         <GradientStops>
-          <GradientStop Color="#FF050505" Offset="0.043" />
+          <GradientStop Color="#FFE0E0E0" Offset="0.043" />
           <GradientStop Color="#FF6B6B6B" Offset="0.705" />
         </GradientStops>
       </BackgroundBrush>
