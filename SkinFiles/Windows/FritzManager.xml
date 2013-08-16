@@ -3,8 +3,8 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>Extensions</Name>
-  <Id>4</Id>
+  <Name>FritzManager</Name>
+  <Id>13</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
@@ -56,7 +56,7 @@
             </Control>
             <Control x:type="Image">
               <Name>ModernUI</Name>
-              <Id>5</Id>
+              <Id>4</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsSkinOptionEnabled(Modern_Ui)</VisibleCondition>
@@ -83,7 +83,7 @@
         </Control>
         <Control x:type="Group">
           <Name>Background</Name>
-          <Id>6</Id>
+          <Id>5</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition />
@@ -93,7 +93,7 @@
           <GroupControls>
             <Control x:type="Label">
               <Name>Time/Date/Weather</Name>
-              <Id>7</Id>
+              <Id>6</Id>
               <Width>1000</Width>
               <Height>60</Height>
               <PosX>280</PosX>
@@ -112,7 +112,7 @@
             </Control>
             <Control x:type="Image">
               <Name>Rec Image</Name>
-              <Id>8</Id>
+              <Id>7</Id>
               <Width>105</Width>
               <Height>80</Height>
               <PosX>1189</PosX>
@@ -127,7 +127,7 @@
             </Control>
             <Control x:type="Image">
               <Name>Window Image</Name>
-              <Id>9</Id>
+              <Id>8</Id>
               <Width>200</Width>
               <Height>141</Height>
               <PosX>10</PosX>
@@ -141,7 +141,7 @@
                 <BackgroundBrush />
                 <BorderBrush x:type="ColorBrush" Color="#FF000000" />
               </ImageStyle>
-              <Image>\Hovers\hover_extensions.jpg</Image>
+              <Image>\Hovers\hover_FritzBox.jpg</Image>
               <ImageStretch>Fill</ImageStretch>
               <CoverImage />
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -150,7 +150,7 @@
         </Control>
         <Control x:type="Group">
           <Name>Vertical List</Name>
-          <Id>10</Id>
+          <Id>9</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
@@ -161,7 +161,7 @@
           <GroupControls>
             <Control x:type="List">
               <Name>List</Name>
-              <Id>11</Id>
+              <Id>10</Id>
               <Width>700</Width>
               <Height>500</Height>
               <PosX>17</PosX>
@@ -194,44 +194,8 @@
               </CoverFlowItemStyle>
             </Control>
             <Control x:type="Rectangle">
-              <Name>Background</Name>
-              <Id>12</Id>
-              <Width>250</Width>
-              <Height>200</Height>
-              <PosX>890</PosX>
-              <PosY>102</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <BorderThickness>3,3,3,3</BorderThickness>
-              <CornerRadius>25,25,25,25</CornerRadius>
-              <BackgroundBrush x:type="ColorBrush" Color="#A9000000" />
-              <BorderBrush x:type="GradientBrush">
-                <Angle>Vertical</Angle>
-                <GradientStops>
-                  <GradientStop Color="#E7FFFFFF" Offset="0" />
-                  <GradientStop Color="#35FFFFFF" Offset="1" />
-                </GradientStops>
-              </BorderBrush>
-            </Control>
-            <Control x:type="Image">
-              <Name>Image</Name>
-              <Id>13</Id>
-              <Width>190</Width>
-              <Height>190</Height>
-              <PosX>920</PosX>
-              <PosY>107</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Clear" />
-              <Image>#MPE.Selected.Icon</Image>
-              <ImageStretch>Uniform</ImageStretch>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Rectangle">
               <Name>Background2</Name>
-              <Id>14</Id>
+              <Id>13</Id>
               <Width>500</Width>
               <Height>360</Height>
               <PosX>750</PosX>
@@ -250,32 +214,46 @@
                 </GradientStops>
               </BorderBrush>
             </Control>
-            <Control x:type="Label">
-              <Name>Description</Name>
-              <Id>15</Id>
-              <Width>490</Width>
-              <Height>340</Height>
-              <PosX>760</PosX>
-              <PosY>330</PosY>
+            <Control x:type="Image">
+              <Name>Image</Name>
+              <Id>47</Id>
+              <Width>300</Width>
+              <Height>300</Height>
+              <PosX>848</PosX>
+              <PosY>351</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="30 White Caps">
+              <ImageStyle StyleId="Clear" />
+              <Image>#selectedthumb</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Label">
+              <Name>Label</Name>
+              <Id>48</Id>
+              <Width>530</Width>
+              <Height>60</Height>
+              <PosX>750</PosX>
+              <PosY>173</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="50 White Caps">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#MPE.Selected.Description</LabelText>
-              <IsVertical>true</IsVertical>
+              <LabelText>#selecteditem</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollDelay>2</ScrollDelay>
-              <ScrollSpeed>5</ScrollSpeed>
+              <ScrollSpeed>10</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-              <ScrollSeperator>--------------------------------</ScrollSeperator>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
           </GroupControls>
         </Control>
         <Control x:type="Group">
           <Name>Horizontal List</Name>
-          <Id>16</Id>
+          <Id>15</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition>IsMediaPortalListLayout(Horizontal) || IsMediaPortalListLayout(CoverFlow)</VisibleCondition>
@@ -286,7 +264,7 @@
           <GroupControls>
             <Control x:type="List">
               <Name>List</Name>
-              <Id>17</Id>
+              <Id>16</Id>
               <Width>1280</Width>
               <Height>380</Height>
               <PosY>140</PosY>
@@ -338,7 +316,7 @@
             </Control>
             <Control x:type="Rectangle">
               <Name>Background</Name>
-              <Id>18</Id>
+              <Id>17</Id>
               <Width>250</Width>
               <Height>200</Height>
               <PosX>10</PosX>
@@ -359,7 +337,7 @@
             </Control>
             <Control x:type="Image">
               <Name>Image</Name>
-              <Id>19</Id>
+              <Id>18</Id>
               <Width>190</Width>
               <Height>190</Height>
               <PosX>40</PosX>
@@ -368,45 +346,24 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Clear" />
-              <Image>#MPE.Selected.Icon</Image>
+              <Image>#selectedthumb</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
-            <Control x:type="Rectangle">
-              <Name>Background2</Name>
-              <Id>20</Id>
-              <Width>878</Width>
-              <Height>200</Height>
-              <PosX>370</PosX>
-              <PosY>510</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <BorderThickness>3,3,3,3</BorderThickness>
-              <CornerRadius>25,25,25,25</CornerRadius>
-              <BackgroundBrush x:type="ColorBrush" Color="#A9000000" />
-              <BorderBrush x:type="GradientBrush">
-                <Angle>Vertical</Angle>
-                <GradientStops>
-                  <GradientStop Color="#E7FFFFFF" Offset="0" />
-                  <GradientStop Color="#35FFFFFF" Offset="1" />
-                </GradientStops>
-              </BorderBrush>
-            </Control>
             <Control x:type="Label">
               <Name>Description</Name>
-              <Id>21</Id>
+              <Id>49</Id>
               <Width>868</Width>
-              <Height>180</Height>
+              <Height>60</Height>
               <PosX>380</PosX>
               <PosY>520</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="30 White Caps">
+              <LabelStyle StyleId="50 White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#MPE.Selected.Description</LabelText>
+              <LabelText>#selecteditem</LabelText>
               <IsVertical>true</IsVertical>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollDelay>2</ScrollDelay>
@@ -418,7 +375,7 @@
         </Control>
         <Control x:type="Button">
           <Name>Menu</Name>
-          <Id>47</Id>
+          <Id>21</Id>
           <Width>1280</Width>
           <Height>100</Height>
           <VisibleCondition />
@@ -432,12 +389,12 @@
         </Control>
         <Control x:type="Group">
           <Name>ActionMenu</Name>
-          <Id>44</Id>
+          <Id>22</Id>
           <Width>400</Width>
           <Height>620</Height>
           <PosX>10</PosX>
           <PosY>50</PosY>
-          <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9)</VisibleCondition>
+          <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(9)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations>
             <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="-400" StartY="50" EndX="10" EndY="50" />
@@ -448,7 +405,7 @@
           <GroupControls>
             <Control x:type="List">
               <Name>List</Name>
-              <Id>45</Id>
+              <Id>23</Id>
               <Width>700</Width>
               <Height>500</Height>
               <VisibleCondition />
@@ -502,7 +459,7 @@
     </Control>
     <Control x:type="Group">
       <Name>Grey</Name>
-      <Id>22</Id>
+      <Id>24</Id>
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition>IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
@@ -513,7 +470,7 @@
       <GroupControls>
         <Control x:type="Group">
           <Name>Image Backgrounds</Name>
-          <Id>23</Id>
+          <Id>25</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition />
@@ -523,7 +480,7 @@
           <GroupControls>
             <Control x:type="Image">
               <Name>Fade to Grey</Name>
-              <Id>25</Id>
+              <Id>26</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
@@ -601,7 +558,7 @@
                 <BackgroundBrush />
                 <BorderBrush x:type="ColorBrush" Color="#FF000000" />
               </ImageStyle>
-              <Image>\Hovers\hover_extensions.jpg</Image>
+              <Image>\Hovers\hover_FritzBox.jpg</Image>
               <ImageStretch>Fill</ImageStretch>
               <CoverImage />
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -671,42 +628,6 @@
               <CoverFlowItemStyle StyleId="CoverFlow" />
             </Control>
             <Control x:type="Rectangle">
-              <Name>Background</Name>
-              <Id>33</Id>
-              <Width>250</Width>
-              <Height>200</Height>
-              <PosX>890</PosX>
-              <PosY>102</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <BorderThickness>3,3,3,3</BorderThickness>
-              <CornerRadius>25,25,25,25</CornerRadius>
-              <BackgroundBrush x:type="ColorBrush" Color="#D0E0E0E0" />
-              <BorderBrush x:type="GradientBrush">
-                <Angle>Vertical</Angle>
-                <GradientStops>
-                  <GradientStop Color="#E7FFFFFF" Offset="0" />
-                  <GradientStop Color="#35FFFFFF" Offset="1" />
-                </GradientStops>
-              </BorderBrush>
-            </Control>
-            <Control x:type="Image">
-              <Name>Image</Name>
-              <Id>34</Id>
-              <Width>190</Width>
-              <Height>190</Height>
-              <PosX>920</PosX>
-              <PosY>107</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Clear" />
-              <Image>#MPE.Selected.Icon</Image>
-              <ImageStretch>Uniform</ImageStretch>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Rectangle">
               <Name>Background2</Name>
               <Id>35</Id>
               <Width>500</Width>
@@ -727,29 +648,43 @@
                 </GradientStops>
               </BorderBrush>
             </Control>
+            <Control x:type="Image">
+              <Name>Image</Name>
+              <Id>34</Id>
+              <Width>300</Width>
+              <Height>300</Height>
+              <PosX>848</PosX>
+              <PosY>351</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Clear" />
+              <Image>#selectedthumb</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
             <Control x:type="Label">
-              <Name>Description</Name>
-              <Id>36</Id>
-              <Width>490</Width>
-              <Height>340</Height>
-              <PosX>760</PosX>
-              <PosY>330</PosY>
+              <Name>Label</Name>
+              <Id>46</Id>
+              <Width>530</Width>
+              <Height>60</Height>
+              <PosX>750</PosX>
+              <PosY>173</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
               <LabelStyle>
                 <FontType>Roboto</FontType>
                 <FontWeight>Black</FontWeight>
-                <FontSize>30</FontSize>
+                <FontSize>50</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FF000000" />
               </LabelStyle>
-              <LabelText>#MPE.Selected.Description</LabelText>
-              <IsVertical>true</IsVertical>
+              <LabelText>#selecteditem</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollDelay>2</ScrollDelay>
-              <ScrollSpeed>5</ScrollSpeed>
+              <ScrollSpeed>10</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-              <ScrollSeperator>--------------------------------</ScrollSeperator>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
           </GroupControls>
         </Control>
@@ -848,36 +783,15 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Clear" />
-              <Image>#MPE.Selected.Icon</Image>
+              <Image>#selectedthumb</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Rectangle">
-              <Name>Background2</Name>
-              <Id>41</Id>
-              <Width>878</Width>
-              <Height>200</Height>
-              <PosX>370</PosX>
-              <PosY>510</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <BorderThickness>3,3,3,3</BorderThickness>
-              <CornerRadius>25,25,25,25</CornerRadius>
-              <BackgroundBrush x:type="ColorBrush" Color="#D0E0E0E0" />
-              <BorderBrush x:type="GradientBrush">
-                <Angle>Vertical</Angle>
-                <GradientStops>
-                  <GradientStop Color="#E7FFFFFF" Offset="0" />
-                  <GradientStop Color="#35FFFFFF" Offset="1" />
-                </GradientStops>
-              </BorderBrush>
             </Control>
             <Control x:type="Label">
               <Name>Description</Name>
               <Id>42</Id>
               <Width>868</Width>
-              <Height>180</Height>
+              <Height>60</Height>
               <PosX>380</PosX>
               <PosY>520</PosY>
               <VisibleCondition />
@@ -886,10 +800,10 @@
               <LabelStyle>
                 <FontType>Roboto</FontType>
                 <FontWeight>Black</FontWeight>
-                <FontSize>30</FontSize>
+                <FontSize>50</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FF000000" />
               </LabelStyle>
-              <LabelText>#MPE.Selected.Description</LabelText>
+              <LabelText>#selecteditem</LabelText>
               <IsVertical>true</IsVertical>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollDelay>2</ScrollDelay>
@@ -901,7 +815,7 @@
         </Control>
         <Control x:type="Button">
           <Name>Menu</Name>
-          <Id>48</Id>
+          <Id>43</Id>
           <Width>1280</Width>
           <Height>100</Height>
           <VisibleCondition />
@@ -915,12 +829,12 @@
         </Control>
         <Control x:type="Group">
           <Name>ActionMenu</Name>
-          <Id>49</Id>
+          <Id>44</Id>
           <Width>400</Width>
           <Height>620</Height>
           <PosX>10</PosX>
           <PosY>50</PosY>
-          <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9)</VisibleCondition>
+          <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(9)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations>
             <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="-400" StartY="50" EndX="10" EndY="50" />
@@ -937,7 +851,7 @@
           <GroupControls>
             <Control x:type="List">
               <Name>List</Name>
-              <Id>50</Id>
+              <Id>45</Id>
               <Width>700</Width>
               <Height>500</Height>
               <VisibleCondition />
@@ -1015,5 +929,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsMediaPortalWindow(801) || IsMediaPortalWindow(804)</VisibleCondition>
+  <VisibleCondition>IsMediaPortalWindow(464554880)</VisibleCondition>
 </Window>

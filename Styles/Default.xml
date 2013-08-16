@@ -23,12 +23,6 @@
       <BackgroundBrush x:type="ImageBrush" Image="\defaultAudioBig.png" Stretch="Uniform" />
       <BorderBrush />
     </ControlStyle>
-    <ControlStyle x:type="ImageStyle" StyleId="VideoCover">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>10,10,10,10</CornerRadius>
-      <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" />
-      <BorderBrush />
-    </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="Empty">
       <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>0,0,0,0</CornerRadius>
@@ -241,8 +235,8 @@
       </FocusBorderBrush>
       <FontType>Wolf Sans</FontType>
       <FontSize>40</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FFF5DDB3" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFE0E0E0" />
       <LabelMargin>5,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
       <ImageMargin>3,3,3,3</ImageMargin>
@@ -281,7 +275,7 @@
     </ControlStyle>
     <ControlStyle x:type="ProgressBarStyle" StyleId="Progress_Orange">
       <BorderThickness>5,5,5,5</BorderThickness>
-      <CornerRadius>100,100,100,100</CornerRadius>
+      <CornerRadius>25,25,25,25</CornerRadius>
       <BackgroundBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
         <GradientStops>
@@ -294,7 +288,7 @@
       <GlossBrush />
       <BarMargin>2,2,2,2</BarMargin>
       <BarBorderThickness>2,2,2,2</BarBorderThickness>
-      <BarCornerRadius>100,100,100,100</BarCornerRadius>
+      <BarCornerRadius>15,15,15,15</BarCornerRadius>
       <BarBorderBrush />
       <BarBackgroundBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
@@ -306,14 +300,14 @@
     </ControlStyle>
     <ControlStyle x:type="ProgressBarStyle" StyleId="Progress_Orange_woBG">
       <BorderThickness>5,5,5,5</BorderThickness>
-      <CornerRadius>100,100,100,100</CornerRadius>
+      <CornerRadius>25,25,25,25</CornerRadius>
       <BackgroundBrush />
       <BorderBrush />
       <ShadeBrush />
       <GlossBrush />
       <BarMargin>2,2,2,2</BarMargin>
       <BarBorderThickness>2,2,2,2</BarBorderThickness>
-      <BarCornerRadius>100,100,100,100</BarCornerRadius>
+      <BarCornerRadius>15,15,15,15</BarCornerRadius>
       <BarBorderBrush />
       <BarBackgroundBrush x:type="GradientBrush">
         <Angle>Vertical</Angle>
@@ -647,6 +641,61 @@
           <GradientStop Color="#FF181872" Offset="1" />
         </GradientStops>
       </BarBackgroundBrush>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="BHome Standard">
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#A0000000" Offset="0" />
+          <GradientStop Color="#DE000000" Offset="0.878" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Roboto</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <ImageMargin>2,2,2,38</ImageMargin>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageStretch>Fill</ImageStretch>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="BHome Blue">
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF416AB0" Offset="0.043" />
+          <GradientStop Color="#FF1B2F51" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Roboto</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFD3D3D3" />
+      <ImageMargin>2,2,2,38</ImageMargin>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageStretch>Fill</ImageStretch>
+    </ControlStyle>
+    <ControlStyle x:type="ImageStyle" StyleId="VideoCover">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
+      <BorderBrush />
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="ActionMenu">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>20,20,20,20</CornerRadius>
+      <BackgroundBrush x:type="ColorBrush" Color="#CD000000" />
+      <BorderBrush />
+      <GlossBrush />
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

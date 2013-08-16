@@ -326,6 +326,118 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest1.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest1.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest2.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest2.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest3.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest3.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest1.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest1.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest2.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest2.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest3.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest3.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest1.serieThumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest1.serieThumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest2.serieThumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest2.serieThumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest3.serieThumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest3.serieThumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest1.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest1.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest2.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest2.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest3.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest3.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.SeriesPoster</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>
@@ -1873,6 +1985,326 @@
       <DesignerValue>63 %</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayHumidity" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest1.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Demolition Man</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest1.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest2.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Titanic</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest2.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest3.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Ich weiß was Du letzten Sommer getan hast</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest3.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest1.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>14.08.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest1.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest2.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>13.08.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest2.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvrecordings.latest3.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>11.08.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvrecordings.latest3.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest1.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest1.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest2.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest2.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest3.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest3.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest1.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest1.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest2.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest2.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.myvideo.latest3.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.myvideo.latest3.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest3.serieName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest3.serieName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest2.serieName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest2.serieName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest1.serieName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest1.serieName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest3.episodeName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest3.episodeName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest2.episodeName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest2.episodeName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest1.episodeName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest1.episodeName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest3.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest3.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest2.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest2.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.tvseries.latest1.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.tvseries.latest1.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest1.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest1.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest2.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest2.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest3.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest3.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest1.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest1.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest2.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest2.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#latestMediaHandler.movingpicture.latest3.dateAdded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#latestMediaHandler.movingpicture.latest3.dateAdded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Series.Pretty_Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Band of Brothers</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Series.Pretty_Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Episode.LocalEpisodeName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Curahee</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.LocalEpisodeName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Episode.SeasonLabel</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>01</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.SeasonLabel" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.SelectedTrack.TrackName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Powerless</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.TrackName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.SelectedTrack.AlbumName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Living Things</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.AlbumName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.SelectedTrack.ArtistName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Linkin Park</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.ArtistName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Next.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Next.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Sanctuary</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.Title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.Genre</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Science Fiction</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.Genre" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.Time</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>22:15 - 23:15</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.Time" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.ChannelName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Pro7</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.ChannelName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.Description" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>

@@ -4,7 +4,7 @@
   <SkinHeight>720</SkinHeight>
   <CurrentStyle>Default</CurrentStyle>
   <CurrentLanguage>Deutsch</CurrentLanguage>
-  <TextEnableScrolling>true</TextEnableScrolling>
+  <TextEnableScrolling>false</TextEnableScrolling>
   <TextHorizontalScrollDelay>3</TextHorizontalScrollDelay>
   <TextHorizontalScrollSpeed>20</TextHorizontalScrollSpeed>
   <TextHorizontalScrollWrap>true</TextHorizontalScrollWrap>
@@ -16,9 +16,9 @@
   <SkinOptions>
     <SkinOption Name="Default" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default.png" />
     <SkinOption Name="Fade_to_Gray" IsPreviewImageEnabled="true" PreviewImage="\Preview_FadetoGray.png" />
-    <SkinOption Name="Horizon" />
+    <SkinOption Name="Horizon" IsPreviewImageEnabled="true" PreviewImage="\Preview_Horizon.png" />
     <SkinOption Name="Hotizon_Up" IsPreviewImageEnabled="true" PreviewImage="\Preview_HorizonUp.png" />
-    <SkinOption Name="Modern_Ui" />
+    <SkinOption Name="Modern_Ui" IsPreviewImageEnabled="true" PreviewImage="\Preview_ModernUI.png" />
   </SkinOptions>
   <SkinName>PureVisionHD 1080</SkinName>
   <Author>Team MPDisplay++</Author>

@@ -23,12 +23,6 @@
       <BackgroundBrush x:type="ImageBrush" Image="\defaultAudioBig.png" Stretch="Uniform" />
       <BorderBrush />
     </ControlStyle>
-    <ControlStyle x:type="ImageStyle" StyleId="VideoCover">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>10,10,10,10</CornerRadius>
-      <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" />
-      <BorderBrush />
-    </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="Empty">
       <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>0,0,0,0</CornerRadius>
@@ -647,6 +641,61 @@
           <GradientStop Color="#FF181872" Offset="1" />
         </GradientStops>
       </BarBackgroundBrush>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="BHome Standard">
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#A0000000" Offset="0" />
+          <GradientStop Color="#DE000000" Offset="0.878" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Roboto</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <ImageMargin>2,2,2,38</ImageMargin>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageStretch>Fill</ImageStretch>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="BHome Blue">
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#A0000000" Offset="0" />
+          <GradientStop Color="#DE000000" Offset="0.878" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Roboto</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF416AB0" />
+      <ImageMargin>2,2,2,38</ImageMargin>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageStretch>Fill</ImageStretch>
+    </ControlStyle>
+    <ControlStyle x:type="ImageStyle" StyleId="VideoCover">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
+      <BorderBrush />
+    </ControlStyle>
+    <ControlStyle x:type="GroupStyle" StyleId="ActionMenu">
+      <BorderThickness>0,0,0,0</BorderThickness>
+      <CornerRadius>20,20,20,20</CornerRadius>
+      <BackgroundBrush x:type="ColorBrush" Color="#CD000000" />
+      <BorderBrush />
+      <GlossBrush />
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

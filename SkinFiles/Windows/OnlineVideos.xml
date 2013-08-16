@@ -336,6 +336,88 @@
                     </Control>
                   </GroupControls>
                 </Control>
+                <Control x:type="Button">
+                  <Name>Menu</Name>
+                  <Id>51</Id>
+                  <Width>1280</Width>
+                  <Height>100</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <ButtonStyle StyleId="clear" />
+                  <LabelText>NewButton</LabelText>
+                  <Actions>
+                    <Action Action="OpenDialog" Param="903" />
+                  </Actions>
+                </Control>
+                <Control x:type="Group">
+                  <Name>ActionMenu</Name>
+                  <Id>51</Id>
+                  <Width>400</Width>
+                  <Height>620</Height>
+                  <PosX>10</PosX>
+                  <PosY>50</PosY>
+                  <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(12) || IsMediaPortalControlFocused(13) || IsMediaPortalControlFocused(14) || IsMediaPortalControlFocused(15)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations>
+                    <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="-400" StartY="50" EndX="10" EndY="50" />
+                    <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="10" StartY="50" EndX="-400" EndY="50" />
+                  </Animations>
+                  <MediaPortalFocusControls />
+                  <GroupStyle StyleId="ActionMenu" />
+                  <GroupControls>
+                    <Control x:type="List">
+                      <Name>List</Name>
+                      <Id>52</Id>
+                      <Width>700</Width>
+                      <Height>500</Height>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ListControlStyle StyleId="empty" />
+                      <ListType>MediaPortalMenuControl</ListType>
+                      <ListLayout>Auto</ListLayout>
+                      <VerticalItemStyle StyleId="ActionMenu ListControl" />
+                      <HorizontalItemStyle>
+                        <BorderThickness>1,1,1,1</BorderThickness>
+                        <CornerRadius>4,4,4,4</CornerRadius>
+                        <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+                        <FontSize>18</FontSize>
+                        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <LabelMargin>3,3,3,3</LabelMargin>
+                        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                        <EnableImage>true</EnableImage>
+                        <ImageMargin>3,3,3,33</ImageMargin>
+                        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                        <Width>135</Width>
+                        <Height>207</Height>
+                        <ItemMargin>1,1,1,1</ItemMargin>
+                      </HorizontalItemStyle>
+                      <CoverFlowItemStyle>
+                        <BorderThickness>1,1,1,1</BorderThickness>
+                        <CornerRadius>4,4,4,4</CornerRadius>
+                        <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+                        <FontSize>18</FontSize>
+                        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <LabelMargin>3,3,3,3</LabelMargin>
+                        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                        <EnableImage>true</EnableImage>
+                        <ImageMargin>3,3,3,33</ImageMargin>
+                        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                        <Width>135</Width>
+                        <Height>207</Height>
+                      </CoverFlowItemStyle>
+                    </Control>
+                  </GroupControls>
+                </Control>
               </GroupControls>
             </Control>
             <Control x:type="Group">
@@ -674,23 +756,122 @@
                     </Control>
                   </GroupControls>
                 </Control>
+                <Control x:type="Button">
+                  <Name>Menu</Name>
+                  <Id>51</Id>
+                  <Width>1280</Width>
+                  <Height>100</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <ButtonStyle StyleId="clear" />
+                  <LabelText>NewButton</LabelText>
+                  <Actions>
+                    <Action Action="OpenDialog" Param="903" />
+                  </Actions>
+                </Control>
+                <Control x:type="Group">
+                  <Name>ActionMenu</Name>
+                  <Id>51</Id>
+                  <Width>400</Width>
+                  <Height>620</Height>
+                  <PosX>10</PosX>
+                  <PosY>50</PosY>
+                  <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(12) || IsMediaPortalControlFocused(13) || IsMediaPortalControlFocused(14) || IsMediaPortalControlFocused(15)</VisibleCondition>
+                  <IsWindowOpenVisible>false</IsWindowOpenVisible>
+                  <Animations>
+                    <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="-400" StartY="50" EndX="10" EndY="50" />
+                    <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="10" StartY="50" EndX="-400" EndY="50" />
+                  </Animations>
+                  <MediaPortalFocusControls />
+                  <GroupStyle>
+                    <BorderThickness>0,0,0,0</BorderThickness>
+                    <CornerRadius>20,20,20,20</CornerRadius>
+                    <BackgroundBrush x:type="ColorBrush" Color="#D0E0E0E0" />
+                    <BorderBrush />
+                    <GlossBrush />
+                  </GroupStyle>
+                  <GroupControls>
+                    <Control x:type="List">
+                      <Name>List</Name>
+                      <Id>52</Id>
+                      <Width>700</Width>
+                      <Height>500</Height>
+                      <VisibleCondition />
+                      <Animations />
+                      <MediaPortalFocusControls />
+                      <ListControlStyle StyleId="empty" />
+                      <ListType>MediaPortalMenuControl</ListType>
+                      <ListLayout>Auto</ListLayout>
+                      <VerticalItemStyle>
+                        <CornerRadius>10,10,10,10</CornerRadius>
+                        <NoFocusBrush />
+                        <NoFocusBorderBrush />
+                        <FocusBrush x:type="GradientBrush">
+                          <Angle>Vertical</Angle>
+                          <GradientStops>
+                            <GradientStop Color="#A0000000" Offset="0" />
+                            <GradientStop Color="#DE000000" Offset="0.878" />
+                          </GradientStops>
+                        </FocusBrush>
+                        <FocusBorderBrush />
+                        <FontType>Wolf Sans</FontType>
+                        <FontSize>40</FontSize>
+                        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                        <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                        <LabelMargin>5,0,0,0</LabelMargin>
+                        <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                        <ImageMargin>3,3,3,3</ImageMargin>
+                        <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+                        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                        <Width>270</Width>
+                        <Height>50</Height>
+                        <ItemMargin>1,1,1,1</ItemMargin>
+                        <HorizontalAlignment>Left</HorizontalAlignment>
+                      </VerticalItemStyle>
+                      <HorizontalItemStyle>
+                        <BorderThickness>1,1,1,1</BorderThickness>
+                        <CornerRadius>4,4,4,4</CornerRadius>
+                        <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+                        <FontSize>18</FontSize>
+                        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <LabelMargin>3,3,3,3</LabelMargin>
+                        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                        <EnableImage>true</EnableImage>
+                        <ImageMargin>3,3,3,33</ImageMargin>
+                        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                        <Width>135</Width>
+                        <Height>207</Height>
+                        <ItemMargin>1,1,1,1</ItemMargin>
+                      </HorizontalItemStyle>
+                      <CoverFlowItemStyle>
+                        <BorderThickness>1,1,1,1</BorderThickness>
+                        <CornerRadius>4,4,4,4</CornerRadius>
+                        <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+                        <FontSize>18</FontSize>
+                        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                        <LabelMargin>3,3,3,3</LabelMargin>
+                        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                        <EnableImage>true</EnableImage>
+                        <ImageMargin>3,3,3,33</ImageMargin>
+                        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                        <Width>135</Width>
+                        <Height>207</Height>
+                      </CoverFlowItemStyle>
+                    </Control>
+                  </GroupControls>
+                </Control>
               </GroupControls>
             </Control>
           </GroupControls>
-        </Control>
-        <Control x:type="Button">
-          <Name>Menu</Name>
-          <Id>37</Id>
-          <Width>1280</Width>
-          <Height>100</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ButtonStyle StyleId="clear" />
-          <LabelText>NewButton</LabelText>
-          <Actions>
-            <Action Action="OpenDialog" Param="903" />
-          </Actions>
         </Control>
       </GroupControls>
     </Control>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalWindow">
+  <IsDefault>false</IsDefault>
+  <Width>1280</Width>
+  <Height>720</Height>
+  <Name>WebBrowser</Name>
+  <Id>16</Id>
+  <BackgroundBrush />
+  <WindowAnimations />
+  <WindowControls>
+    <Control x:type="Group">
+      <Name>Dark</Name>
+      <Id>19</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>!IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Group">
+          <Name>Image Backgrounds</Name>
+          <Id>20</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>Default</Name>
+              <Id>21</Id>
+              <Width>1280</Width>
+              <Height>720</Height>
+              <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Horizon) || IsSkinOptionEnabled(Hotizon_Up)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle>
+                <BorderThickness>0,0,0,0</BorderThickness>
+                <CornerRadius>0,0,0,0</CornerRadius>
+                <BackgroundBrush x:type="ImageBrush" Image="\background.jpg" Stretch="Fill" />
+                <BorderBrush />
+              </ImageStyle>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverImage x:type="GradientBrush">
+                <Angle>Vertical</Angle>
+                <GradientStops>
+                  <GradientStop Color="#FF000000" Offset="0.029" />
+                  <GradientStop Color="#01000000" Offset="0.165" />
+                </GradientStops>
+              </CoverImage>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>ModernUI</Name>
+              <Id>22</Id>
+              <Width>1280</Width>
+              <Height>720</Height>
+              <VisibleCondition>IsSkinOptionEnabled(Modern_Ui)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle>
+                <BorderThickness>0,0,0,0</BorderThickness>
+                <CornerRadius>0,0,0,0</CornerRadius>
+                <BackgroundBrush x:type="ImageBrush" Image="\Styles\ModernUi\background.jpg" Stretch="Fill" />
+                <BorderBrush />
+              </ImageStyle>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverImage x:type="GradientBrush">
+                <Angle>Vertical</Angle>
+                <GradientStops>
+                  <GradientStop Color="#FF000000" Offset="0.051" />
+                  <GradientStop Color="#03000000" Offset="0.172" />
+                </GradientStops>
+              </CoverImage>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Background</Name>
+          <Id>23</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Time/Date/Weather</Name>
+              <Id>24</Id>
+              <Width>1000</Width>
+              <Height>60</Height>
+              <PosX>280</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle>
+                <FontType>Wolf Sans</FontType>
+                <FontSize>50</FontSize>
+                <FontBrush x:type="ColorBrush" Color="#FFF5DDB3" />
+              </LabelStyle>
+              <LabelText>#Time+ | +#Date+ | +: +#WorldWeather.TodayCondition+, +#WorldWeather.TodayTemperature</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Rec Image</Name>
+              <Id>25</Id>
+              <Width>105</Width>
+              <Height>80</Height>
+              <PosX>1189</PosX>
+              <VisibleCondition>IsTvRecording</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Clear" />
+              <Image>\tvguide_record_button.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Window Image</Name>
+              <Id>26</Id>
+              <Width>200</Width>
+              <Height>141</Height>
+              <PosX>10</PosX>
+              <PosY>10</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle>
+                <BorderThickness>5,5,5,5</BorderThickness>
+                <CornerRadius>0,0,0,0</CornerRadius>
+                <BackgroundBrush />
+                <BorderBrush x:type="ColorBrush" Color="#FF000000" />
+              </ImageStyle>
+              <Image>\Hovers\hover_webbrowser.jpg</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverImage />
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Button">
+          <Name>Menu</Name>
+          <Id>37</Id>
+          <Width>1280</Width>
+          <Height>100</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="clear" />
+          <LabelText>NewButton</LabelText>
+          <Actions>
+            <Action Action="OpenDialog" Param="903" />
+          </Actions>
+        </Control>
+        <Control x:type="Label">
+          <Name>Label</Name>
+          <Id>38</Id>
+          <Width>1280</Width>
+          <Height>100</Height>
+          <PosY>170</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="40 White Caps">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#MPD2.BrowseStatus</LabelText>
+          <IsVertical>true</IsVertical>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Label</Name>
+          <Id>39</Id>
+          <Width>1280</Width>
+          <Height>100</Height>
+          <PosY>300</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="40 White Caps">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#MPD2.Browseurl</LabelText>
+          <IsVertical>true</IsVertical>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Grey</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Group">
+          <Name>Image Backgrounds</Name>
+          <Id>2</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>Fade to Grey</Name>
+              <Id>3</Id>
+              <Width>1280</Width>
+              <Height>720</Height>
+              <VisibleCondition>IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle>
+                <BorderThickness>0,0,0,0</BorderThickness>
+                <CornerRadius>0,0,0,0</CornerRadius>
+                <BackgroundBrush x:type="ImageBrush" Image="\Styles\FadetoGray\background.jpg" Stretch="Fill" />
+                <BorderBrush />
+              </ImageStyle>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Background</Name>
+          <Id>4</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Time/Date/Weather</Name>
+              <Id>5</Id>
+              <Width>1000</Width>
+              <Height>60</Height>
+              <PosX>280</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle>
+                <FontType>Wolf Sans</FontType>
+                <FontSize>50</FontSize>
+                <FontBrush x:type="ColorBrush" Color="#FFF5DDB3" />
+              </LabelStyle>
+              <LabelText>#Time+ | +#Date+ | +: +#WorldWeather.TodayCondition+, +#WorldWeather.TodayTemperature</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Rec Image</Name>
+              <Id>6</Id>
+              <Width>105</Width>
+              <Height>80</Height>
+              <PosX>1189</PosX>
+              <VisibleCondition>IsTvRecording</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Clear" />
+              <Image>\tvguide_record_button.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Window Image</Name>
+              <Id>7</Id>
+              <Width>200</Width>
+              <Height>141</Height>
+              <PosX>10</PosX>
+              <PosY>10</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle>
+                <BorderThickness>5,5,5,5</BorderThickness>
+                <CornerRadius>0,0,0,0</CornerRadius>
+                <BackgroundBrush />
+                <BorderBrush x:type="ColorBrush" Color="#FF000000" />
+              </ImageStyle>
+              <Image>\Hovers\hover_webbrowser.jpg</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverImage />
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Button">
+          <Name>Menu</Name>
+          <Id>18</Id>
+          <Width>1280</Width>
+          <Height>100</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="clear" />
+          <LabelText>NewButton</LabelText>
+          <Actions>
+            <Action Action="OpenDialog" Param="903" />
+          </Actions>
+        </Control>
+        <Control x:type="Label">
+          <Name>Label</Name>
+          <Id>40</Id>
+          <Width>1280</Width>
+          <Height>100</Height>
+          <PosY>170</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Roboto</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>40</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FF000000" />
+          </LabelStyle>
+          <LabelText>#MPD2.BrowseStatus</LabelText>
+          <IsVertical>true</IsVertical>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Label</Name>
+          <Id>41</Id>
+          <Width>1280</Width>
+          <Height>100</Height>
+          <PosY>300</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Roboto</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>40</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FF000000" />
+          </LabelStyle>
+          <LabelText>#MPD2.Browseurl</LabelText>
+          <IsVertical>true</IsVertical>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+  </WindowControls>
+  <VisibleCondition>IsMediaPortalWindow(16002) || IsMediaPortalWindow(54537689)</VisibleCondition>
+</Window>

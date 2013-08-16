@@ -3,24 +3,24 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>Music</Name>
-  <Id>5</Id>
+  <Name>Rockstar</Name>
+  <Id>14</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
     <Control x:type="Group">
       <Name>Main View</Name>
-      <Id>21</Id>
+      <Id>1</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition>IsMediaPortalWindow(500) || IsMediaPortalWindow(501) || IsMediaPortalWindow(504)</VisibleCondition>
+      <VisibleCondition>IsMediaPortalWindow(47286)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
       <GroupControls>
         <Control x:type="Group">
           <Name>Dark</Name>
-          <Id>65</Id>
+          <Id>2</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition>!IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
@@ -31,7 +31,7 @@
           <GroupControls>
             <Control x:type="Group">
               <Name>Background</Name>
-              <Id>66</Id>
+              <Id>3</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -41,7 +41,7 @@
               <GroupControls>
                 <Control x:type="Image">
                   <Name>ModernUI</Name>
-                  <Id>252</Id>
+                  <Id>4</Id>
                   <Width>1280</Width>
                   <Height>720</Height>
                   <VisibleCondition>IsSkinOptionEnabled(Modern_Ui)</VisibleCondition>
@@ -67,7 +67,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Background</Name>
-                  <Id>67</Id>
+                  <Id>5</Id>
                   <Width>1280</Width>
                   <Height>720</Height>
                   <VisibleCondition>!IsSkinOptionEnabled(Modern_Ui)</VisibleCondition>
@@ -93,7 +93,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Time/Date/Weather</Name>
-                  <Id>68</Id>
+                  <Id>6</Id>
                   <Width>1000</Width>
                   <Height>60</Height>
                   <PosX>280</PosX>
@@ -112,7 +112,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Rec Image</Name>
-                  <Id>69</Id>
+                  <Id>7</Id>
                   <Width>105</Width>
                   <Height>80</Height>
                   <PosX>1189</PosX>
@@ -127,7 +127,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Window Image</Name>
-                  <Id>70</Id>
+                  <Id>8</Id>
                   <Width>200</Width>
                   <Height>141</Height>
                   <PosX>10</PosX>
@@ -150,7 +150,7 @@
             </Control>
             <Control x:type="Group">
               <Name>Vertical List</Name>
-              <Id>71</Id>
+              <Id>9</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
@@ -161,7 +161,7 @@
               <GroupControls>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>72</Id>
+                  <Id>10</Id>
                   <Width>700</Width>
                   <Height>500</Height>
                   <PosX>17</PosX>
@@ -195,7 +195,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Image</Name>
-                  <Id>73</Id>
+                  <Id>11</Id>
                   <Width>300</Width>
                   <Height>300</Height>
                   <PosX>866</PosX>
@@ -208,11 +208,104 @@
                   <ImageStretch>Uniform</ImageStretch>
                   <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
                 </Control>
+                <Control x:type="Rectangle">
+                  <Name>Background2</Name>
+                  <Id>75</Id>
+                  <Width>500</Width>
+                  <Height>275</Height>
+                  <PosX>750</PosX>
+                  <PosY>400</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <BorderThickness>3,3,3,3</BorderThickness>
+                  <CornerRadius>25,25,25,25</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#A9000000" />
+                  <BorderBrush x:type="GradientBrush">
+                    <Angle>Vertical</Angle>
+                    <GradientStops>
+                      <GradientStop Color="#E7FFFFFF" Offset="0" />
+                      <GradientStop Color="#35FFFFFF" Offset="1" />
+                    </GradientStops>
+                  </BorderBrush>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Track Name</Name>
+                  <Id>85</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>410</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.TrackName</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Year</Name>
+                  <Id>86</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>470</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumYear</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Name</Name>
+                  <Id>87</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>530</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Artist Name</Name>
+                  <Id>88</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>600</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="40 White Caps">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
               </GroupControls>
             </Control>
             <Control x:type="Group">
               <Name>Horizontal List</Name>
-              <Id>74</Id>
+              <Id>12</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsMediaPortalListLayout(Horizontal)</VisibleCondition>
@@ -223,7 +316,7 @@
               <GroupControls>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>75</Id>
+                  <Id>13</Id>
                   <Width>1280</Width>
                   <Height>380</Height>
                   <PosY>140</PosY>
@@ -273,11 +366,74 @@
                     <Height>207</Height>
                   </CoverFlowItemStyle>
                 </Control>
+                <Control x:type="Rectangle">
+                  <Name>Background</Name>
+                  <Id>76</Id>
+                  <Width>1080</Width>
+                  <Height>140</Height>
+                  <PosX>100</PosX>
+                  <PosY>570</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <BorderThickness>3,3,3,3</BorderThickness>
+                  <CornerRadius>25,25,25,25</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#A9000000" />
+                  <BorderBrush x:type="GradientBrush">
+                    <Angle>Vertical</Angle>
+                    <GradientStops>
+                      <GradientStop Color="#E7FFFFFF" Offset="0" />
+                      <GradientStop Color="#35FFFFFF" Offset="1" />
+                    </GradientStops>
+                  </BorderBrush>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Artist &amp; Track Name</Name>
+                  <Id>92</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>580</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="50 White">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName+ - +#Rockstar.SelectedTrack.TrackName</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Name &amp; Year</Name>
+                  <Id>93</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>640</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="50 White">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName+ - +#Rockstar.SelectedTrack.AlbumYear</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
               </GroupControls>
             </Control>
             <Control x:type="Group">
               <Name>CoverFlow List</Name>
-              <Id>76</Id>
+              <Id>14</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsMediaPortalListLayout(CoverFlow)</VisibleCondition>
@@ -288,7 +444,7 @@
               <GroupControls>
                 <Control x:type="Rectangle">
                   <Name>NewRectangle</Name>
-                  <Id>77</Id>
+                  <Id>15</Id>
                   <Width>1057</Width>
                   <Height>500</Height>
                   <PosX>102</PosX>
@@ -304,7 +460,7 @@
                 </Control>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>78</Id>
+                  <Id>16</Id>
                   <Width>1280</Width>
                   <Height>380</Height>
                   <PosY>137</PosY>
@@ -357,11 +513,74 @@
                   </HorizontalItemStyle>
                   <CoverFlowItemStyle StyleId="CoverFlow" />
                 </Control>
+                <Control x:type="Rectangle">
+                  <Name>Background</Name>
+                  <Id>77</Id>
+                  <Width>1080</Width>
+                  <Height>140</Height>
+                  <PosX>100</PosX>
+                  <PosY>570</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <BorderThickness>3,3,3,3</BorderThickness>
+                  <CornerRadius>25,25,25,25</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#A9000000" />
+                  <BorderBrush x:type="GradientBrush">
+                    <Angle>Vertical</Angle>
+                    <GradientStops>
+                      <GradientStop Color="#E7FFFFFF" Offset="0" />
+                      <GradientStop Color="#35FFFFFF" Offset="1" />
+                    </GradientStops>
+                  </BorderBrush>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Artist &amp; Track Name</Name>
+                  <Id>94</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>580</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="50 White">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName+ - +#Rockstar.SelectedTrack.TrackName</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Name &amp; Year</Name>
+                  <Id>95</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>640</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle StyleId="50 White">
+                    <FontSize>20</FontSize>
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName+ - +#Rockstar.SelectedTrack.AlbumYear</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
               </GroupControls>
             </Control>
             <Control x:type="Button">
               <Name>Menu</Name>
-              <Id>51</Id>
+              <Id>17</Id>
               <Width>1280</Width>
               <Height>100</Height>
               <VisibleCondition />
@@ -375,12 +594,12 @@
             </Control>
             <Control x:type="Group">
               <Name>ActionMenu</Name>
-              <Id>51</Id>
+              <Id>18</Id>
               <Width>400</Width>
               <Height>620</Height>
               <PosX>10</PosX>
               <PosY>50</PosY>
-              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(12) || IsMediaPortalControlFocused(13) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(53) || IsMediaPortalControlFocused(14)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(20) || IsMediaPortalControlFocused(32) || IsMediaPortalControlFocused(30)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="-400" StartY="50" EndX="10" EndY="50" />
@@ -391,7 +610,7 @@
               <GroupControls>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>52</Id>
+                  <Id>19</Id>
                   <Width>700</Width>
                   <Height>500</Height>
                   <VisibleCondition />
@@ -445,7 +664,7 @@
         </Control>
         <Control x:type="Group">
           <Name>Grey</Name>
-          <Id>79</Id>
+          <Id>20</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition>IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
@@ -456,7 +675,7 @@
           <GroupControls>
             <Control x:type="Group">
               <Name>Background</Name>
-              <Id>80</Id>
+              <Id>21</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -466,7 +685,7 @@
               <GroupControls>
                 <Control x:type="Image">
                   <Name>Background</Name>
-                  <Id>81</Id>
+                  <Id>22</Id>
                   <Width>1280</Width>
                   <Height>720</Height>
                   <VisibleCondition />
@@ -491,7 +710,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Time/Date/Weather</Name>
-                  <Id>82</Id>
+                  <Id>23</Id>
                   <Width>1000</Width>
                   <Height>60</Height>
                   <PosX>280</PosX>
@@ -510,7 +729,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Rec Image</Name>
-                  <Id>83</Id>
+                  <Id>24</Id>
                   <Width>105</Width>
                   <Height>80</Height>
                   <PosX>1189</PosX>
@@ -525,7 +744,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Window Image</Name>
-                  <Id>84</Id>
+                  <Id>25</Id>
                   <Width>200</Width>
                   <Height>141</Height>
                   <PosX>10</PosX>
@@ -548,7 +767,7 @@
             </Control>
             <Control x:type="Group">
               <Name>Vertical List</Name>
-              <Id>85</Id>
+              <Id>26</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
@@ -559,7 +778,7 @@
               <GroupControls>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>86</Id>
+                  <Id>27</Id>
                   <Width>700</Width>
                   <Height>500</Height>
                   <PosX>17</PosX>
@@ -610,10 +829,10 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Image</Name>
-                  <Id>87</Id>
-                  <Width>300</Width>
-                  <Height>300</Height>
-                  <PosX>866</PosX>
+                  <Id>28</Id>
+                  <Width>200</Width>
+                  <Height>200</Height>
+                  <PosX>900</PosX>
                   <PosY>180</PosY>
                   <VisibleCondition />
                   <Animations />
@@ -623,76 +842,116 @@
                   <ImageStretch>Uniform</ImageStretch>
                   <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
                 </Control>
-              </GroupControls>
-            </Control>
-            <Control x:type="Group">
-              <Name>Horizontal List</Name>
-              <Id>88</Id>
-              <Width>1280</Width>
-              <Height>720</Height>
-              <VisibleCondition>IsMediaPortalListLayout(Horizontal)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
-              <Animations />
-              <MediaPortalFocusControls />
-              <GroupStyle StyleId="Empty" />
-              <GroupControls>
-                <Control x:type="List">
-                  <Name>List</Name>
-                  <Id>89</Id>
-                  <Width>1280</Width>
-                  <Height>380</Height>
-                  <PosY>140</PosY>
+                <Control x:type="Rectangle">
+                  <Name>Background2</Name>
+                  <Id>78</Id>
+                  <Width>500</Width>
+                  <Height>275</Height>
+                  <PosX>750</PosX>
+                  <PosY>400</PosY>
                   <VisibleCondition />
                   <Animations />
                   <MediaPortalFocusControls />
-                  <ListControlStyle StyleId="empty" />
-                  <ListType>MediaPortalListControl</ListType>
-                  <ListLayout>Horizontal</ListLayout>
-                  <VerticalItemStyle>
-                    <BorderThickness>1,1,1,1</BorderThickness>
-                    <CornerRadius>4,4,4,4</CornerRadius>
-                    <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-                    <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                    <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                    <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-                    <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                    <LabelMargin>50,0,0,0</LabelMargin>
-                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-                    <EnableImage>true</EnableImage>
-                    <ImageMargin>3,3,3,3</ImageMargin>
-                    <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
-                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-                    <ImageCornerRadius>4</ImageCornerRadius>
-                    <Width>600</Width>
-                    <Height>50</Height>
-                    <ItemMargin>1,1,1,1</ItemMargin>
-                  </VerticalItemStyle>
-                  <HorizontalItemStyle StyleId="Horizontal" />
-                  <CoverFlowItemStyle>
-                    <BorderThickness>1,1,1,1</BorderThickness>
-                    <CornerRadius>4,4,4,4</CornerRadius>
-                    <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-                    <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                    <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                    <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                    <FontSize>18</FontSize>
-                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-                    <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                    <LabelMargin>3,3,3,3</LabelMargin>
-                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-                    <EnableImage>true</EnableImage>
-                    <ImageMargin>3,3,3,33</ImageMargin>
-                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-                    <Width>135</Width>
-                    <Height>207</Height>
-                  </CoverFlowItemStyle>
+                  <BorderThickness>3,3,3,3</BorderThickness>
+                  <CornerRadius>25,25,25,25</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#D0E0E0E0" />
+                  <BorderBrush x:type="GradientBrush">
+                    <Angle>Vertical</Angle>
+                    <GradientStops>
+                      <GradientStop Color="#E7FFFFFF" Offset="0" />
+                      <GradientStop Color="#35FFFFFF" Offset="1" />
+                    </GradientStops>
+                  </BorderBrush>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Track Name</Name>
+                  <Id>81</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>410</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Roboto</FontType>
+                    <FontWeight>Black</FontWeight>
+                    <FontSize>40</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.TrackName</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Year</Name>
+                  <Id>82</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>470</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Roboto</FontType>
+                    <FontWeight>Black</FontWeight>
+                    <FontSize>40</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumYear</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Name</Name>
+                  <Id>83</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>530</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Roboto</FontType>
+                    <FontWeight>Black</FontWeight>
+                    <FontSize>40</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Artist Name</Name>
+                  <Id>84</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
+                  <PosX>760</PosX>
+                  <PosY>600</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Roboto</FontType>
+                    <FontWeight>Black</FontWeight>
+                    <FontSize>40</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName</LabelText>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollSpeed>2</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
                 </Control>
               </GroupControls>
             </Control>
             <Control x:type="Group">
               <Name>CoverFlow List</Name>
-              <Id>90</Id>
+              <Id>31</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition>IsMediaPortalListLayout(CoverFlow)</VisibleCondition>
@@ -703,7 +962,7 @@
               <GroupControls>
                 <Control x:type="Rectangle">
                   <Name>NewRectangle</Name>
-                  <Id>91</Id>
+                  <Id>32</Id>
                   <Width>1057</Width>
                   <Height>500</Height>
                   <PosX>102</PosX>
@@ -719,7 +978,7 @@
                 </Control>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>92</Id>
+                  <Id>33</Id>
                   <Width>1280</Width>
                   <Height>380</Height>
                   <PosY>137</PosY>
@@ -772,11 +1031,210 @@
                   </HorizontalItemStyle>
                   <CoverFlowItemStyle StyleId="CoverFlow" />
                 </Control>
+                <Control x:type="Rectangle">
+                  <Name>Background2</Name>
+                  <Id>80</Id>
+                  <Width>1080</Width>
+                  <Height>140</Height>
+                  <PosX>100</PosX>
+                  <PosY>570</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <BorderThickness>3,3,3,3</BorderThickness>
+                  <CornerRadius>25,25,25,25</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#D0E0E0E0" />
+                  <BorderBrush x:type="GradientBrush">
+                    <Angle>Vertical</Angle>
+                    <GradientStops>
+                      <GradientStop Color="#E7FFFFFF" Offset="0" />
+                      <GradientStop Color="#35FFFFFF" Offset="1" />
+                    </GradientStops>
+                  </BorderBrush>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Artist &amp; Track Name</Name>
+                  <Id>85</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>580</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Wolf Sans</FontType>
+                    <FontSize>50</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName+ - +#Rockstar.SelectedTrack.TrackName</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Name &amp; Year</Name>
+                  <Id>89</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>640</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Wolf Sans</FontType>
+                    <FontSize>50</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName+ - +#Rockstar.SelectedTrack.AlbumYear</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>Horizontal List</Name>
+              <Id>29</Id>
+              <Width>1280</Width>
+              <Height>720</Height>
+              <VisibleCondition>IsMediaPortalListLayout(Horizontal)</VisibleCondition>
+              <IsWindowOpenVisible>false</IsWindowOpenVisible>
+              <Animations />
+              <MediaPortalFocusControls />
+              <GroupStyle StyleId="Empty" />
+              <GroupControls>
+                <Control x:type="List">
+                  <Name>List</Name>
+                  <Id>30</Id>
+                  <Width>1280</Width>
+                  <Height>380</Height>
+                  <PosY>140</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <ListControlStyle StyleId="empty" />
+                  <ListType>MediaPortalListControl</ListType>
+                  <ListLayout>Horizontal</ListLayout>
+                  <VerticalItemStyle>
+                    <BorderThickness>1,1,1,1</BorderThickness>
+                    <CornerRadius>4,4,4,4</CornerRadius>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                    <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                    <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                    <LabelMargin>50,0,0,0</LabelMargin>
+                    <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>3,3,3,3</ImageMargin>
+                    <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <ImageCornerRadius>4</ImageCornerRadius>
+                    <Width>600</Width>
+                    <Height>50</Height>
+                    <ItemMargin>1,1,1,1</ItemMargin>
+                  </VerticalItemStyle>
+                  <HorizontalItemStyle StyleId="Horizontal" />
+                  <CoverFlowItemStyle>
+                    <BorderThickness>1,1,1,1</BorderThickness>
+                    <CornerRadius>4,4,4,4</CornerRadius>
+                    <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                    <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                    <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+                    <FontSize>18</FontSize>
+                    <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+                    <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+                    <LabelMargin>3,3,3,3</LabelMargin>
+                    <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                    <EnableImage>true</EnableImage>
+                    <ImageMargin>3,3,3,33</ImageMargin>
+                    <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+                    <Width>135</Width>
+                    <Height>207</Height>
+                  </CoverFlowItemStyle>
+                </Control>
+                <Control x:type="Rectangle">
+                  <Name>Background2</Name>
+                  <Id>79</Id>
+                  <Width>1080</Width>
+                  <Height>140</Height>
+                  <PosX>100</PosX>
+                  <PosY>570</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <BorderThickness>3,3,3,3</BorderThickness>
+                  <CornerRadius>25,25,25,25</CornerRadius>
+                  <BackgroundBrush x:type="ColorBrush" Color="#D0E0E0E0" />
+                  <BorderBrush x:type="GradientBrush">
+                    <Angle>Vertical</Angle>
+                    <GradientStops>
+                      <GradientStop Color="#E7FFFFFF" Offset="0" />
+                      <GradientStop Color="#35FFFFFF" Offset="1" />
+                    </GradientStops>
+                  </BorderBrush>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Artist &amp; Track Name</Name>
+                  <Id>90</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>580</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Wolf Sans</FontType>
+                    <FontSize>50</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName+ - +#Rockstar.SelectedTrack.TrackName</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
+                <Control x:type="Label">
+                  <Name>Album Name &amp; Year</Name>
+                  <Id>91</Id>
+                  <Width>1060</Width>
+                  <Height>60</Height>
+                  <PosX>110</PosX>
+                  <PosY>640</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Wolf Sans</FontType>
+                    <FontSize>50</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName+ - +#Rockstar.SelectedTrack.AlbumYear</LabelText>
+                  <LabelTextAlignment>Center</LabelTextAlignment>
+                  <IsScrollingEnabled>false</IsScrollingEnabled>
+                  <ScrollDelay>2</ScrollDelay>
+                  <ScrollSpeed>10</ScrollSpeed>
+                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+                  <ScrollSeperator>   |   </ScrollSeperator>
+                </Control>
               </GroupControls>
             </Control>
             <Control x:type="Button">
               <Name>Menu</Name>
-              <Id>51</Id>
+              <Id>34</Id>
               <Width>1280</Width>
               <Height>100</Height>
               <VisibleCondition />
@@ -790,12 +1248,12 @@
             </Control>
             <Control x:type="Group">
               <Name>ActionMenu</Name>
-              <Id>51</Id>
+              <Id>35</Id>
               <Width>400</Width>
               <Height>620</Height>
               <PosX>10</PosX>
               <PosY>50</PosY>
-              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(12) || IsMediaPortalControlFocused(13) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(53) || IsMediaPortalControlFocused(14)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(20) || IsMediaPortalControlFocused(32) || IsMediaPortalControlFocused(30)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="-400" StartY="50" EndX="10" EndY="50" />
@@ -812,7 +1270,7 @@
               <GroupControls>
                 <Control x:type="List">
                   <Name>List</Name>
-                  <Id>52</Id>
+                  <Id>36</Id>
                   <Width>700</Width>
                   <Height>500</Height>
                   <VisibleCondition />
@@ -893,10 +1351,10 @@
     </Control>
     <Control x:type="Group">
       <Name>Playing View</Name>
-      <Id>42</Id>
+      <Id>37</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition>IsPlayer(IsCDA) || IsPlayer(IsMusic)</VisibleCondition>
+      <VisibleCondition>IsPlayer(Rockstar)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
@@ -904,7 +1362,7 @@
       <GroupControls>
         <Control x:type="Group">
           <Name>Dark</Name>
-          <Id>93</Id>
+          <Id>38</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition>!IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
@@ -915,7 +1373,7 @@
           <GroupControls>
             <Control x:type="Group">
               <Name>Background</Name>
-              <Id>94</Id>
+              <Id>39</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -925,7 +1383,7 @@
               <GroupControls>
                 <Control x:type="Image">
                   <Name>ModernUI</Name>
-                  <Id>252</Id>
+                  <Id>40</Id>
                   <Width>1280</Width>
                   <Height>720</Height>
                   <VisibleCondition>IsSkinOptionEnabled(Modern_Ui)</VisibleCondition>
@@ -951,7 +1409,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Background</Name>
-                  <Id>95</Id>
+                  <Id>41</Id>
                   <Width>1280</Width>
                   <Height>720</Height>
                   <VisibleCondition>!IsSkinOptionEnabled(Modern_Ui)</VisibleCondition>
@@ -977,7 +1435,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Time/Date/Weather</Name>
-                  <Id>96</Id>
+                  <Id>42</Id>
                   <Width>1000</Width>
                   <Height>60</Height>
                   <PosX>280</PosX>
@@ -996,7 +1454,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Rec Image</Name>
-                  <Id>97</Id>
+                  <Id>43</Id>
                   <Width>105</Width>
                   <Height>80</Height>
                   <PosX>1189</PosX>
@@ -1013,7 +1471,7 @@
             </Control>
             <Control x:type="Group">
               <Name>Lower Info</Name>
-              <Id>98</Id>
+              <Id>44</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -1023,7 +1481,7 @@
               <GroupControls>
                 <Control x:type="Rectangle">
                   <Name>Background</Name>
-                  <Id>99</Id>
+                  <Id>45</Id>
                   <Width>1100</Width>
                   <Height>250</Height>
                   <PosX>100</PosX>
@@ -1044,7 +1502,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Playtime</Name>
-                  <Id>100</Id>
+                  <Id>46</Id>
                   <Width>357</Width>
                   <Height>90</Height>
                   <PosX>106</PosX>
@@ -1062,7 +1520,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Duration</Name>
-                  <Id>101</Id>
+                  <Id>47</Id>
                   <Width>357</Width>
                   <Height>90</Height>
                   <PosX>855</PosX>
@@ -1080,7 +1538,7 @@
                 </Control>
                 <Control x:type="ProgressBar">
                   <Name>ProgressBar</Name>
-                  <Id>102</Id>
+                  <Id>48</Id>
                   <Width>1082</Width>
                   <Height>52</Height>
                   <PosX>106</PosX>
@@ -1093,7 +1551,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Title</Name>
-                  <Id>103</Id>
+                  <Id>49</Id>
                   <Width>1086</Width>
                   <Height>90</Height>
                   <PosX>106</PosX>
@@ -1104,7 +1562,7 @@
                   <LabelStyle StyleId="80 White Caps">
                     <FontSize>20</FontSize>
                   </LabelStyle>
-                  <LabelText>#Play.Current.Artist+ - +#Play.Current.Title</LabelText>
+                  <LabelText>#Play.Current.Title</LabelText>
                   <LabelTextAlignment>Center</LabelTextAlignment>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollDelay>2</ScrollDelay>
@@ -1116,7 +1574,7 @@
             </Control>
             <Control x:type="Group">
               <Name>Upper Info</Name>
-              <Id>104</Id>
+              <Id>50</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -1126,7 +1584,7 @@
               <GroupControls>
                 <Control x:type="Rectangle">
                   <Name>Background</Name>
-                  <Id>105</Id>
+                  <Id>51</Id>
                   <Width>540</Width>
                   <Height>312</Height>
                   <PosX>660</PosX>
@@ -1146,73 +1604,55 @@
                   </BorderBrush>
                 </Control>
                 <Control x:type="Label">
-                  <Name>Next Artist Label</Name>
-                  <Id>106</Id>
-                  <Width>520</Width>
-                  <Height>40</Height>
+                  <Name>Artist Name</Name>
+                  <Id>99</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
                   <PosX>670</PosX>
                   <PosY>130</PosY>
                   <VisibleCondition />
                   <Animations />
                   <MediaPortalFocusControls />
-                  <LabelStyle StyleId="30 White Caps">
+                  <LabelStyle StyleId="40 White Caps">
                     <FontSize>20</FontSize>
                   </LabelStyle>
-                  <LabelText>@Next2+ +@Artist+:</LabelText>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName</LabelText>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollSpeed>2</ScrollSpeed>
                   <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
                 </Control>
                 <Control x:type="Label">
-                  <Name>Next Artist</Name>
-                  <Id>107</Id>
+                  <Name>Album Name</Name>
+                  <Id>98</Id>
                   <Width>520</Width>
                   <Height>50</Height>
                   <PosX>670</PosX>
-                  <PosY>170</PosY>
+                  <PosY>180</PosY>
                   <VisibleCondition />
                   <Animations />
                   <MediaPortalFocusControls />
-                  <LabelStyle StyleId="40 White">
+                  <LabelStyle StyleId="40 White Caps">
                     <FontSize>20</FontSize>
                   </LabelStyle>
-                  <LabelText>#Play.Next.Artist</LabelText>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName</LabelText>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollSpeed>2</ScrollSpeed>
                   <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
                 </Control>
                 <Control x:type="Label">
-                  <Name>Next Title Label</Name>
-                  <Id>108</Id>
-                  <Width>520</Width>
-                  <Height>40</Height>
-                  <PosX>670</PosX>
-                  <PosY>230</PosY>
-                  <VisibleCondition />
-                  <Animations />
-                  <MediaPortalFocusControls />
-                  <LabelStyle StyleId="30 White Caps">
-                    <FontSize>20</FontSize>
-                  </LabelStyle>
-                  <LabelText>@Next2+ +@Title+:</LabelText>
-                  <IsScrollingEnabled>false</IsScrollingEnabled>
-                  <ScrollSpeed>2</ScrollSpeed>
-                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-                </Control>
-                <Control x:type="Label">
-                  <Name>Next Title</Name>
-                  <Id>109</Id>
+                  <Name>Album Year</Name>
+                  <Id>97</Id>
                   <Width>520</Width>
                   <Height>50</Height>
                   <PosX>670</PosX>
-                  <PosY>270</PosY>
+                  <PosY>280</PosY>
                   <VisibleCondition />
                   <Animations />
                   <MediaPortalFocusControls />
-                  <LabelStyle StyleId="40 White">
+                  <LabelStyle StyleId="40 White Caps">
                     <FontSize>20</FontSize>
                   </LabelStyle>
-                  <LabelText>#Play.Next.Title</LabelText>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumYear</LabelText>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollSpeed>2</ScrollSpeed>
                   <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -1223,7 +1663,7 @@
         </Control>
         <Control x:type="Group">
           <Name>Grey</Name>
-          <Id>110</Id>
+          <Id>56</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition>IsSkinOptionEnabled(Fade_to_Gray)</VisibleCondition>
@@ -1234,7 +1674,7 @@
           <GroupControls>
             <Control x:type="Group">
               <Name>Background</Name>
-              <Id>111</Id>
+              <Id>57</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -1244,7 +1684,7 @@
               <GroupControls>
                 <Control x:type="Image">
                   <Name>Background</Name>
-                  <Id>112</Id>
+                  <Id>58</Id>
                   <Width>1280</Width>
                   <Height>720</Height>
                   <VisibleCondition />
@@ -1269,7 +1709,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Time/Date/Weather</Name>
-                  <Id>113</Id>
+                  <Id>59</Id>
                   <Width>1000</Width>
                   <Height>60</Height>
                   <PosX>280</PosX>
@@ -1288,7 +1728,7 @@
                 </Control>
                 <Control x:type="Image">
                   <Name>Rec Image</Name>
-                  <Id>114</Id>
+                  <Id>60</Id>
                   <Width>105</Width>
                   <Height>80</Height>
                   <PosX>1189</PosX>
@@ -1305,7 +1745,7 @@
             </Control>
             <Control x:type="Group">
               <Name>Lower Info</Name>
-              <Id>115</Id>
+              <Id>61</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -1315,7 +1755,7 @@
               <GroupControls>
                 <Control x:type="Rectangle">
                   <Name>Background</Name>
-                  <Id>116</Id>
+                  <Id>62</Id>
                   <Width>1100</Width>
                   <Height>250</Height>
                   <PosX>100</PosX>
@@ -1336,7 +1776,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Playtime</Name>
-                  <Id>117</Id>
+                  <Id>63</Id>
                   <Width>357</Width>
                   <Height>90</Height>
                   <PosX>106</PosX>
@@ -1356,7 +1796,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Duration</Name>
-                  <Id>118</Id>
+                  <Id>64</Id>
                   <Width>357</Width>
                   <Height>90</Height>
                   <PosX>855</PosX>
@@ -1376,7 +1816,7 @@
                 </Control>
                 <Control x:type="ProgressBar">
                   <Name>ProgressBar</Name>
-                  <Id>119</Id>
+                  <Id>65</Id>
                   <Width>1082</Width>
                   <Height>52</Height>
                   <PosX>106</PosX>
@@ -1413,7 +1853,7 @@
                 </Control>
                 <Control x:type="Label">
                   <Name>Title</Name>
-                  <Id>120</Id>
+                  <Id>66</Id>
                   <Width>1086</Width>
                   <Height>90</Height>
                   <PosX>106</PosX>
@@ -1427,7 +1867,7 @@
                     <FontSize>80</FontSize>
                     <FontBrush x:type="ColorBrush" Color="#FF000000" />
                   </LabelStyle>
-                  <LabelText>#Play.Current.Artist+ - +#Play.Current.Title</LabelText>
+                  <LabelText>#Play.Current.Title</LabelText>
                   <LabelTextAlignment>Center</LabelTextAlignment>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollDelay>2</ScrollDelay>
@@ -1439,7 +1879,7 @@
             </Control>
             <Control x:type="Group">
               <Name>Upper Info</Name>
-              <Id>121</Id>
+              <Id>67</Id>
               <Width>1280</Width>
               <Height>720</Height>
               <VisibleCondition />
@@ -1449,7 +1889,7 @@
               <GroupControls>
                 <Control x:type="Rectangle">
                   <Name>Background</Name>
-                  <Id>122</Id>
+                  <Id>68</Id>
                   <Width>540</Width>
                   <Height>312</Height>
                   <PosX>660</PosX>
@@ -1469,10 +1909,10 @@
                   </BorderBrush>
                 </Control>
                 <Control x:type="Label">
-                  <Name>Next Artist Label</Name>
-                  <Id>123</Id>
-                  <Width>520</Width>
-                  <Height>40</Height>
+                  <Name>Artist Name</Name>
+                  <Id>100</Id>
+                  <Width>480</Width>
+                  <Height>50</Height>
                   <PosX>670</PosX>
                   <PosY>130</PosY>
                   <VisibleCondition />
@@ -1481,71 +1921,52 @@
                   <LabelStyle>
                     <FontType>Roboto</FontType>
                     <FontWeight>Black</FontWeight>
-                    <FontSize>30</FontSize>
-                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
-                  </LabelStyle>
-                  <LabelText>@Next2+ +@Artist+:</LabelText>
-                  <IsScrollingEnabled>false</IsScrollingEnabled>
-                  <ScrollSpeed>2</ScrollSpeed>
-                  <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-                </Control>
-                <Control x:type="Label">
-                  <Name>Next Artist</Name>
-                  <Id>124</Id>
-                  <Width>520</Width>
-                  <Height>50</Height>
-                  <PosX>670</PosX>
-                  <PosY>170</PosY>
-                  <VisibleCondition />
-                  <Animations />
-                  <MediaPortalFocusControls />
-                  <LabelStyle>
-                    <FontType>Wolf Sans</FontType>
                     <FontSize>40</FontSize>
                     <FontBrush x:type="ColorBrush" Color="#FF000000" />
                   </LabelStyle>
-                  <LabelText>#Play.Next.Artist</LabelText>
+                  <LabelText>#Rockstar.SelectedTrack.ArtistName</LabelText>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollSpeed>2</ScrollSpeed>
                   <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
                 </Control>
                 <Control x:type="Label">
-                  <Name>Next Title Label</Name>
-                  <Id>125</Id>
+                  <Name>Album Name</Name>
+                  <Id>101</Id>
                   <Width>520</Width>
-                  <Height>40</Height>
+                  <Height>50</Height>
                   <PosX>670</PosX>
-                  <PosY>230</PosY>
+                  <PosY>180</PosY>
                   <VisibleCondition />
                   <Animations />
                   <MediaPortalFocusControls />
                   <LabelStyle>
                     <FontType>Roboto</FontType>
                     <FontWeight>Black</FontWeight>
-                    <FontSize>30</FontSize>
+                    <FontSize>40</FontSize>
                     <FontBrush x:type="ColorBrush" Color="#FF000000" />
                   </LabelStyle>
-                  <LabelText>@Next2+ +@Title+:</LabelText>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumName</LabelText>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollSpeed>2</ScrollSpeed>
                   <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
                 </Control>
                 <Control x:type="Label">
-                  <Name>Next Title</Name>
-                  <Id>126</Id>
+                  <Name>Album Year</Name>
+                  <Id>102</Id>
                   <Width>520</Width>
                   <Height>50</Height>
                   <PosX>670</PosX>
-                  <PosY>270</PosY>
+                  <PosY>280</PosY>
                   <VisibleCondition />
                   <Animations />
                   <MediaPortalFocusControls />
                   <LabelStyle>
-                    <FontType>Wolf Sans</FontType>
+                    <FontType>Roboto</FontType>
+                    <FontWeight>Black</FontWeight>
                     <FontSize>40</FontSize>
                     <FontBrush x:type="ColorBrush" Color="#FF000000" />
                   </LabelStyle>
-                  <LabelText>#Play.Next.Title</LabelText>
+                  <LabelText>#Rockstar.SelectedTrack.AlbumYear</LabelText>
                   <IsScrollingEnabled>false</IsScrollingEnabled>
                   <ScrollSpeed>2</ScrollSpeed>
                   <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -1556,7 +1977,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Cover</Name>
-          <Id>64</Id>
+          <Id>73</Id>
           <Width>250</Width>
           <Height>250</Height>
           <PosX>16</PosX>
@@ -1572,7 +1993,7 @@
         </Control>
         <Control x:type="Button">
           <Name>Menu</Name>
-          <Id>253</Id>
+          <Id>74</Id>
           <Width>1280</Width>
           <Height>100</Height>
           <VisibleCondition />
@@ -1587,5 +2008,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsMediaPortalWindow(500) || IsMediaPortalWindow(501) || IsMediaPortalWindow(504) || IsPlayer(IsCDA) || IsPlayer(IsMusic)</VisibleCondition>
+  <VisibleCondition>IsMediaPortalWindow(47286) || IsPlayer(Rockstar)</VisibleCondition>
 </Window>
