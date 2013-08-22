@@ -438,6 +438,38 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#Play.Current.AudioChannels</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AudioChannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AudioCodec.Texture</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AudioCodec.Texture" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AspectRatio</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AspectRatio" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.VideoResolution</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.VideoResolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>
@@ -891,38 +923,6 @@
       <DesignerValue>Battlefield 3</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.title" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.AudioChannels</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.AudioChannels" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.AudioCodec.Texture</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.AudioCodec.Texture" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.AspectRatio</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.AspectRatio" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#Play.Current.VideoResolution</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.VideoResolution" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
