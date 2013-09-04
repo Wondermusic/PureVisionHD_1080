@@ -282,7 +282,18 @@
               <PosX>75</PosX>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>2</MediaPortalControlId>
+                <MediaPortalControlId>201</MediaPortalControlId>
+                <MediaPortalControlId>202</MediaPortalControlId>
+                <MediaPortalControlId>203</MediaPortalControlId>
+                <MediaPortalControlId>204</MediaPortalControlId>
+                <MediaPortalControlId>205</MediaPortalControlId>
+                <MediaPortalControlId>206</MediaPortalControlId>
+                <MediaPortalControlId>207</MediaPortalControlId>
+                <MediaPortalControlId>208</MediaPortalControlId>
+                <MediaPortalControlId>209</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_tvNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -306,7 +317,18 @@
               <PosY>50</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>210</MediaPortalControlId>
+                <MediaPortalControlId>211</MediaPortalControlId>
+                <MediaPortalControlId>212</MediaPortalControlId>
+                <MediaPortalControlId>213</MediaPortalControlId>
+                <MediaPortalControlId>214</MediaPortalControlId>
+                <MediaPortalControlId>215</MediaPortalControlId>
+                <MediaPortalControlId>216</MediaPortalControlId>
+                <MediaPortalControlId>217</MediaPortalControlId>
+                <MediaPortalControlId>218</MediaPortalControlId>
+                <MediaPortalControlId>219</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_videoNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -330,7 +352,18 @@
               <PosY>100</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>220</MediaPortalControlId>
+                <MediaPortalControlId>221</MediaPortalControlId>
+                <MediaPortalControlId>222</MediaPortalControlId>
+                <MediaPortalControlId>223</MediaPortalControlId>
+                <MediaPortalControlId>224</MediaPortalControlId>
+                <MediaPortalControlId>225</MediaPortalControlId>
+                <MediaPortalControlId>226</MediaPortalControlId>
+                <MediaPortalControlId>227</MediaPortalControlId>
+                <MediaPortalControlId>228</MediaPortalControlId>
+                <MediaPortalControlId>229</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_musicNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -354,7 +387,9 @@
               <PosY>150</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>230</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_pictureNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -378,7 +413,9 @@
               <PosY>200</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>240</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_weatherNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -402,7 +439,18 @@
               <PosY>250</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>270</MediaPortalControlId>
+                <MediaPortalControlId>271</MediaPortalControlId>
+                <MediaPortalControlId>272</MediaPortalControlId>
+                <MediaPortalControlId>273</MediaPortalControlId>
+                <MediaPortalControlId>274</MediaPortalControlId>
+                <MediaPortalControlId>275</MediaPortalControlId>
+                <MediaPortalControlId>276</MediaPortalControlId>
+                <MediaPortalControlId>277</MediaPortalControlId>
+                <MediaPortalControlId>278</MediaPortalControlId>
+                <MediaPortalControlId>279</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_internetNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -426,7 +474,18 @@
               <PosY>300</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>250</MediaPortalControlId>
+                <MediaPortalControlId>251</MediaPortalControlId>
+                <MediaPortalControlId>252</MediaPortalControlId>
+                <MediaPortalControlId>253</MediaPortalControlId>
+                <MediaPortalControlId>254</MediaPortalControlId>
+                <MediaPortalControlId>255</MediaPortalControlId>
+                <MediaPortalControlId>256</MediaPortalControlId>
+                <MediaPortalControlId>257</MediaPortalControlId>
+                <MediaPortalControlId>258</MediaPortalControlId>
+                <MediaPortalControlId>259</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_pluginsNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -450,7 +509,18 @@
               <PosY>350</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>280</MediaPortalControlId>
+                <MediaPortalControlId>281</MediaPortalControlId>
+                <MediaPortalControlId>282</MediaPortalControlId>
+                <MediaPortalControlId>283</MediaPortalControlId>
+                <MediaPortalControlId>284</MediaPortalControlId>
+                <MediaPortalControlId>285</MediaPortalControlId>
+                <MediaPortalControlId>286</MediaPortalControlId>
+                <MediaPortalControlId>287</MediaPortalControlId>
+                <MediaPortalControlId>288</MediaPortalControlId>
+                <MediaPortalControlId>289</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_gamesNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -474,7 +544,18 @@
               <PosY>400</PosY>
               <VisibleCondition />
               <Animations />
-              <MediaPortalFocusControls />
+              <MediaPortalFocusControls>
+                <MediaPortalControlId>260</MediaPortalControlId>
+                <MediaPortalControlId>261</MediaPortalControlId>
+                <MediaPortalControlId>262</MediaPortalControlId>
+                <MediaPortalControlId>263</MediaPortalControlId>
+                <MediaPortalControlId>264</MediaPortalControlId>
+                <MediaPortalControlId>265</MediaPortalControlId>
+                <MediaPortalControlId>266</MediaPortalControlId>
+                <MediaPortalControlId>267</MediaPortalControlId>
+                <MediaPortalControlId>268</MediaPortalControlId>
+                <MediaPortalControlId>269</MediaPortalControlId>
+              </MediaPortalFocusControls>
               <ButtonStyle>
                 <NoFocusBrush x:type="ImageBrush" Image="\Buttons\tb_settingsNF.png" Stretch="Fill" />
                 <NoFocusBorderBrush />
@@ -779,7 +860,7 @@
               <Id>365</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(2)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(201) || IsMediaPortalControlFocused(202) || IsMediaPortalControlFocused(203) || IsMediaPortalControlFocused(204) || IsMediaPortalControlFocused(205) || IsMediaPortalControlFocused(206) || IsMediaPortalControlFocused(207) || IsMediaPortalControlFocused(208) || IsMediaPortalControlFocused(209)</VisibleCondition>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
                 <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
@@ -1080,7 +1161,7 @@
               <Id>507</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(210)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(210) || IsMediaPortalControlFocused(211) || IsMediaPortalControlFocused(212) || IsMediaPortalControlFocused(213) || IsMediaPortalControlFocused(214) || IsMediaPortalControlFocused(215) || IsMediaPortalControlFocused(216) || IsMediaPortalControlFocused(217) || IsMediaPortalControlFocused(218) || IsMediaPortalControlFocused(219)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -1652,7 +1733,7 @@
               <Id>434</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(220)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(220) || IsMediaPortalControlFocused(221) || IsMediaPortalControlFocused(222) || IsMediaPortalControlFocused(223) || IsMediaPortalControlFocused(224) || IsMediaPortalControlFocused(225) || IsMediaPortalControlFocused(226) || IsMediaPortalControlFocused(227) || IsMediaPortalControlFocused(228) || IsMediaPortalControlFocused(229)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -2613,7 +2694,7 @@
               <Id>489</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(250) || IsMediaPortalControlFocused(251) || IsMediaPortalControlFocused(252) || IsMediaPortalControlFocused(253) || IsMediaPortalControlFocused(254) || IsMediaPortalControlFocused(255) || IsMediaPortalControlFocused(256) || IsMediaPortalControlFocused(257) || IsMediaPortalControlFocused(258) || IsMediaPortalControlFocused(259)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -2773,7 +2854,7 @@
               <Id>541</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(260) || IsMediaPortalControlFocused(261) || IsMediaPortalControlFocused(262) || IsMediaPortalControlFocused(263) || IsMediaPortalControlFocused(264) || IsMediaPortalControlFocused(265) || IsMediaPortalControlFocused(266) || IsMediaPortalControlFocused(267) || IsMediaPortalControlFocused(268) || IsMediaPortalControlFocused(269)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -3132,7 +3213,7 @@
               <Id>677</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(2)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(201) || IsMediaPortalControlFocused(202) || IsMediaPortalControlFocused(203) || IsMediaPortalControlFocused(204) || IsMediaPortalControlFocused(205) || IsMediaPortalControlFocused(206) || IsMediaPortalControlFocused(207) || IsMediaPortalControlFocused(208) || IsMediaPortalControlFocused(209)</VisibleCondition>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
                 <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
@@ -3433,7 +3514,7 @@
               <Id>569</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(210)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(210) || IsMediaPortalControlFocused(211) || IsMediaPortalControlFocused(212) || IsMediaPortalControlFocused(213) || IsMediaPortalControlFocused(214) || IsMediaPortalControlFocused(215) || IsMediaPortalControlFocused(216) || IsMediaPortalControlFocused(217) || IsMediaPortalControlFocused(218) || IsMediaPortalControlFocused(219)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -4005,7 +4086,7 @@
               <Id>603</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(220)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(220) || IsMediaPortalControlFocused(221) || IsMediaPortalControlFocused(222) || IsMediaPortalControlFocused(223) || IsMediaPortalControlFocused(224) || IsMediaPortalControlFocused(225) || IsMediaPortalControlFocused(226) || IsMediaPortalControlFocused(227) || IsMediaPortalControlFocused(228) || IsMediaPortalControlFocused(229)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -4899,7 +4980,7 @@
               <Id>658</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(250) || IsMediaPortalControlFocused(251) || IsMediaPortalControlFocused(252) || IsMediaPortalControlFocused(253) || IsMediaPortalControlFocused(254) || IsMediaPortalControlFocused(255) || IsMediaPortalControlFocused(256) || IsMediaPortalControlFocused(257) || IsMediaPortalControlFocused(258) || IsMediaPortalControlFocused(259)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -5059,7 +5140,7 @@
               <Id>667</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(260) || IsMediaPortalControlFocused(261) || IsMediaPortalControlFocused(262) || IsMediaPortalControlFocused(263) || IsMediaPortalControlFocused(264) || IsMediaPortalControlFocused(265) || IsMediaPortalControlFocused(266) || IsMediaPortalControlFocused(267) || IsMediaPortalControlFocused(268) || IsMediaPortalControlFocused(269)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -5400,7 +5481,7 @@
               <Id>848</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(2)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(201) || IsMediaPortalControlFocused(202) || IsMediaPortalControlFocused(203) || IsMediaPortalControlFocused(204) || IsMediaPortalControlFocused(205) || IsMediaPortalControlFocused(206) || IsMediaPortalControlFocused(207) || IsMediaPortalControlFocused(208) || IsMediaPortalControlFocused(209)</VisibleCondition>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" StartX="1280" />
                 <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Delay="500" EndX="1280" />
@@ -5704,7 +5785,7 @@
               <Id>714</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(210)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(210) || IsMediaPortalControlFocused(211) || IsMediaPortalControlFocused(212) || IsMediaPortalControlFocused(213) || IsMediaPortalControlFocused(214) || IsMediaPortalControlFocused(215) || IsMediaPortalControlFocused(216) || IsMediaPortalControlFocused(217) || IsMediaPortalControlFocused(218) || IsMediaPortalControlFocused(219)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" StartX="1280" />
@@ -6279,7 +6360,7 @@
               <Id>748</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(220)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(220) || IsMediaPortalControlFocused(221) || IsMediaPortalControlFocused(222) || IsMediaPortalControlFocused(223) || IsMediaPortalControlFocused(224) || IsMediaPortalControlFocused(225) || IsMediaPortalControlFocused(226) || IsMediaPortalControlFocused(227) || IsMediaPortalControlFocused(228) || IsMediaPortalControlFocused(229)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" StartX="1280" />
@@ -7173,7 +7254,7 @@
               <Id>803</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(250) || IsMediaPortalControlFocused(251) || IsMediaPortalControlFocused(252) || IsMediaPortalControlFocused(253) || IsMediaPortalControlFocused(254) || IsMediaPortalControlFocused(255) || IsMediaPortalControlFocused(256) || IsMediaPortalControlFocused(257) || IsMediaPortalControlFocused(258) || IsMediaPortalControlFocused(259)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" StartX="1280" />
@@ -7333,7 +7414,7 @@
               <Id>812</Id>
               <Width>1280</Width>
               <Height>370</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(260) || IsMediaPortalControlFocused(261) || IsMediaPortalControlFocused(262) || IsMediaPortalControlFocused(263) || IsMediaPortalControlFocused(264) || IsMediaPortalControlFocused(265) || IsMediaPortalControlFocused(266) || IsMediaPortalControlFocused(267) || IsMediaPortalControlFocused(268) || IsMediaPortalControlFocused(269)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" StartX="1280" />
@@ -7673,7 +7754,7 @@
               <Id>193</Id>
               <Width>1240</Width>
               <Height>400</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(2)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(201) || IsMediaPortalControlFocused(202) || IsMediaPortalControlFocused(203) || IsMediaPortalControlFocused(204) || IsMediaPortalControlFocused(205) || IsMediaPortalControlFocused(206) || IsMediaPortalControlFocused(207) || IsMediaPortalControlFocused(208) || IsMediaPortalControlFocused(209)</VisibleCondition>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
                 <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" StartX="20" EndX="-1260" />
@@ -8074,7 +8155,7 @@
               <Id>210</Id>
               <Width>1240</Width>
               <Height>400</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(210)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(210) || IsMediaPortalControlFocused(211) || IsMediaPortalControlFocused(212) || IsMediaPortalControlFocused(213) || IsMediaPortalControlFocused(214) || IsMediaPortalControlFocused(215) || IsMediaPortalControlFocused(216) || IsMediaPortalControlFocused(217) || IsMediaPortalControlFocused(218) || IsMediaPortalControlFocused(219)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -8748,7 +8829,7 @@
               <Id>90</Id>
               <Width>1240</Width>
               <Height>400</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(220)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(220) || IsMediaPortalControlFocused(221) || IsMediaPortalControlFocused(222) || IsMediaPortalControlFocused(223) || IsMediaPortalControlFocused(224) || IsMediaPortalControlFocused(225) || IsMediaPortalControlFocused(226) || IsMediaPortalControlFocused(227) || IsMediaPortalControlFocused(228) || IsMediaPortalControlFocused(229)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -9741,7 +9822,7 @@
               <Id>168</Id>
               <Width>1240</Width>
               <Height>400</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(250) || IsMediaPortalControlFocused(251) || IsMediaPortalControlFocused(252) || IsMediaPortalControlFocused(253) || IsMediaPortalControlFocused(254) || IsMediaPortalControlFocused(255) || IsMediaPortalControlFocused(256) || IsMediaPortalControlFocused(257) || IsMediaPortalControlFocused(258) || IsMediaPortalControlFocused(259)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
@@ -10000,7 +10081,7 @@
               <Id>176</Id>
               <Width>1240</Width>
               <Height>400</Height>
-              <VisibleCondition>IsMediaPortalControlFocused(250)</VisibleCondition>
+              <VisibleCondition>IsMediaPortalControlFocused(260) || IsMediaPortalControlFocused(261) || IsMediaPortalControlFocused(262) || IsMediaPortalControlFocused(263) || IsMediaPortalControlFocused(264) || IsMediaPortalControlFocused(265) || IsMediaPortalControlFocused(266) || IsMediaPortalControlFocused(267) || IsMediaPortalControlFocused(268) || IsMediaPortalControlFocused(269)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" StartX="-1260" EndX="20" />
